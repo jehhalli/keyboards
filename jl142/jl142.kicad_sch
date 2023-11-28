@@ -73,7 +73,7 @@
         )
       )
     )
-    (symbol "symbols:1N4148" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "Diode:1N4148" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1081,10 +1081,6 @@
     (stroke (width 0) (type default))
     (uuid 71a89145-5498-41ab-99e4-3c39d6135217)
   )
-  (wire (pts (xy 74.93 88.9) (xy 74.93 116.84))
-    (stroke (width 0) (type default))
-    (uuid 71b17a38-4afc-4129-9198-7ca14aa2ea97)
-  )
   (wire (pts (xy 267.97 88.9) (xy 267.97 116.84))
     (stroke (width 0) (type default))
     (uuid 71c7eac6-c27a-4622-8a35-e8254a2a6300)
@@ -1216,6 +1212,10 @@
   (wire (pts (xy 74.93 71.12) (xy 81.28 71.12))
     (stroke (width 0) (type default))
     (uuid 91eef3c6-5f5e-4e61-8675-6558cb35a2b9)
+  )
+  (wire (pts (xy 74.93 88.9) (xy 74.93 116.84))
+    (stroke (width 0) (type default))
+    (uuid 92af5f17-01fb-488f-99f7-06a87658d4d2)
   )
   (wire (pts (xy 317.5 76.2) (xy 293.37 76.2))
     (stroke (width 0) (type default))
@@ -1841,7 +1841,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 36.83 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 36.83 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e5c3d)
     (property "Reference" "D2" (at 34.29 52.07 0)
@@ -1899,7 +1899,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 36.83 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 36.83 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e5f38)
     (property "Reference" "D3" (at 34.29 69.85 0)
@@ -1957,7 +1957,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 36.83 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 36.83 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e5f4b)
     (property "Reference" "D4" (at 34.29 87.63 0)
@@ -2015,7 +2015,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 60.96 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 60.96 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e77c1)
     (property "Reference" "D7" (at 58.42 52.07 0)
@@ -2073,7 +2073,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 60.96 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 60.96 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e77d4)
     (property "Reference" "D8" (at 58.42 69.85 0)
@@ -2131,7 +2131,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 60.96 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 60.96 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e77e7)
     (property "Reference" "D9" (at 58.42 87.63 0)
@@ -2189,7 +2189,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 85.09 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 85.09 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7f3c)
     (property "Reference" "D12" (at 82.55 52.07 0)
@@ -2247,7 +2247,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 85.09 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 85.09 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7f4f)
     (property "Reference" "D13" (at 82.55 69.85 0)
@@ -2305,7 +2305,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 85.09 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 85.09 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7f62)
     (property "Reference" "D14" (at 82.55 87.63 0)
@@ -2363,7 +2363,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 109.22 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 109.22 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7f9b)
     (property "Reference" "D17" (at 106.68 52.07 0)
@@ -2421,7 +2421,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 109.22 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 109.22 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7fae)
     (property "Reference" "D18" (at 106.68 69.85 0)
@@ -2479,7 +2479,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 109.22 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 109.22 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7fc1)
     (property "Reference" "D19" (at 106.68 87.63 0)
@@ -2537,7 +2537,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 133.35 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 133.35 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e823e)
     (property "Reference" "D22" (at 130.81 52.07 0)
@@ -2595,7 +2595,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 133.35 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 133.35 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e8251)
     (property "Reference" "D23" (at 130.81 69.85 0)
@@ -2653,7 +2653,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 133.35 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 133.35 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e8264)
     (property "Reference" "D24" (at 130.81 87.63 0)
@@ -2711,7 +2711,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 133.35 106.68 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 133.35 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e8277)
     (property "Reference" "D25" (at 130.81 105.41 0)
@@ -2769,7 +2769,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 157.48 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 157.48 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e829d)
     (property "Reference" "D27" (at 154.94 52.07 0)
@@ -2827,7 +2827,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 157.48 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 157.48 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e82b0)
     (property "Reference" "D28" (at 154.94 69.85 0)
@@ -2885,7 +2885,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 157.48 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 157.48 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e82c3)
     (property "Reference" "D29" (at 154.94 87.63 0)
@@ -2943,7 +2943,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 157.48 106.68 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 157.48 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e82d6)
     (property "Reference" "D30" (at 154.94 105.41 0)
@@ -3001,7 +3001,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 205.74 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 205.74 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd38)
     (property "Reference" "D34" (at 203.2 52.07 0)
@@ -3059,7 +3059,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 205.74 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 205.74 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd4b)
     (property "Reference" "D35" (at 203.2 69.85 0)
@@ -3117,7 +3117,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 205.74 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 205.74 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd5e)
     (property "Reference" "D36" (at 203.2 87.63 0)
@@ -3175,7 +3175,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 205.74 106.68 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 205.74 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd71)
     (property "Reference" "D37" (at 203.2 105.41 0)
@@ -3233,7 +3233,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 229.87 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 229.87 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd97)
     (property "Reference" "D39" (at 227.33 52.07 0)
@@ -3291,7 +3291,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 229.87 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 229.87 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581eddaa)
     (property "Reference" "D40" (at 227.33 69.85 0)
@@ -3349,7 +3349,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 229.87 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 229.87 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581eddbd)
     (property "Reference" "D41" (at 227.33 87.63 0)
@@ -3407,7 +3407,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 229.87 106.68 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 229.87 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581eddd0)
     (property "Reference" "D42" (at 227.33 105.41 0)
@@ -3465,7 +3465,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 254 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 254 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581eddf6)
     (property "Reference" "D44" (at 251.46 52.07 0)
@@ -3523,7 +3523,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 254 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 254 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede09)
     (property "Reference" "D45" (at 251.46 69.85 0)
@@ -3581,7 +3581,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 254 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 254 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede1c)
     (property "Reference" "D46" (at 251.46 87.63 0)
@@ -3639,7 +3639,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 278.13 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 278.13 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede55)
     (property "Reference" "D49" (at 275.59 52.07 0)
@@ -3697,7 +3697,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 278.13 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 278.13 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede68)
     (property "Reference" "D50" (at 275.59 69.85 0)
@@ -3755,7 +3755,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 278.13 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 278.13 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede7b)
     (property "Reference" "D51" (at 275.59 87.63 0)
@@ -3813,7 +3813,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 302.26 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 302.26 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edeb4)
     (property "Reference" "D54" (at 299.72 52.07 0)
@@ -3871,7 +3871,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 302.26 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 302.26 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edec7)
     (property "Reference" "D55" (at 299.72 69.85 0)
@@ -3929,7 +3929,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 302.26 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 302.26 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ededa)
     (property "Reference" "D56" (at 299.72 87.63 0)
@@ -3987,7 +3987,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 326.39 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 326.39 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edf13)
     (property "Reference" "D59" (at 323.85 52.07 0)
@@ -4045,7 +4045,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 326.39 71.12 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 326.39 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edf26)
     (property "Reference" "D60" (at 323.85 69.85 0)
@@ -4103,7 +4103,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 326.39 88.9 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 326.39 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edf39)
     (property "Reference" "D61" (at 323.85 87.63 0)
@@ -4334,7 +4334,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 254 106.68 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 254 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 228f8517-5771-4014-a7ae-20d876d79a33)
     (property "Reference" "D47" (at 251.46 105.41 0)
@@ -4418,7 +4418,7 @@
     )
   )
 
-  (symbol (lib_id "symbols:1N4148") (at 109.22 106.68 0) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 109.22 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d60d24f1-e6c0-4781-9470-af7366ab9b23)
     (property "Reference" "D20" (at 106.68 105.41 0)
