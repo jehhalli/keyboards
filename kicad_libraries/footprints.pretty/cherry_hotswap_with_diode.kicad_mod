@@ -1,13 +1,17 @@
 (footprint "cherry_hotswap_with_diode" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
-  (fp_text reference "${REFERENCE}" (at 7.1 8.2) (layer "F.SilkS") hide
+  (fp_text reference "${REFERENCE}" (at 0 3) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cf87a54c-0a91-4202-b160-d84c1606e82b)
   )
-  (fp_text value "SW_PUSH" (at -4.8 8.3) (layer "F.Fab") hide
+  (fp_text value "SW_PUSH" (at 0 -8.25) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp be0f2b0a-17f3-498b-a7e6-5516679c2280)
+  )
+  (fp_text user "${REFERENCE}" (at 0 3) (layer "B.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (tstamp 05e29c51-0441-472e-a2a3-be80bd95a64e)
   )
   (fp_line (start -5.715 -5.485) (end -5.715 -1.135)
     (stroke (width 0.1) (type default)) (layer "B.SilkS") (tstamp 37fbb567-ac53-4901-b18a-b565a148cdfa))

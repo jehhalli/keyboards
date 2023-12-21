@@ -73,6 +73,110 @@
         )
       )
     )
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_Pad_0_1"
+        (circle (center 0 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "MountingHole_Pad_1_1"
+        (pin input line (at 0 -2.54 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "symbols:ProMicro" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U1" (at 0 24.13 0)
         (effects (font (size 1.524 1.524)))
@@ -312,6 +416,9 @@
   (junction (at 50.8 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 071cf832-b021-451d-9545-cebb18f026e9)
   )
+  (junction (at 379.73 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid 0ec08e8f-3cbf-4d75-bd31-189904716623)
+  )
   (junction (at 195.58 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 15214c77-6948-4e86-995e-49e1dd1a95cd)
   )
@@ -336,6 +443,12 @@
   (junction (at 50.8 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 31b4f045-b1e9-457e-9e28-e3054d4589bb)
   )
+  (junction (at 356.87 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid 3acccb71-c3f7-43a1-bcfd-5d1fa00821cb)
+  )
+  (junction (at 387.35 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid 4142881c-adce-4429-83eb-7f05de4aa579)
+  )
   (junction (at 220.98 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 44eba526-cb8d-450e-b354-31917ab55a9a)
   )
@@ -350,6 +463,9 @@
   )
   (junction (at 292.1 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 4ba3d3da-f969-4d15-9dbb-f92da8727497)
+  )
+  (junction (at 353.06 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid 50a48e9e-75d4-4818-83f4-11234edbc08c)
   )
   (junction (at 219.71 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 51a086f5-c596-40ba-9fc7-e2049618ff4b)
@@ -393,6 +509,9 @@
   (junction (at 269.24 58.42) (diameter 0) (color 0 0 0 0)
     (uuid 81424699-f06f-42fc-8d0a-60f357000274)
   )
+  (junction (at 360.68 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid 8282f7f7-ea3c-4959-8be4-681f1906f8ee)
+  )
   (junction (at 219.71 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 856ea96f-7263-49f8-b5d3-4953c938d5aa)
   )
@@ -417,8 +536,14 @@
   (junction (at 245.11 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 96e37965-e427-42a2-bd8e-ddca464a78e6)
   )
+  (junction (at 372.11 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid 9ecb9350-d718-44c6-9f55-82a0644fc9fd)
+  )
   (junction (at 269.24 40.64) (diameter 0) (color 0 0 0 0)
     (uuid a3f53dbd-76d5-46ca-84e0-e6d1dcd57a69)
+  )
+  (junction (at 349.25 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid a55229c6-a899-4adb-81bc-79386dc405d8)
   )
   (junction (at 100.33 40.64) (diameter 0) (color 0 0 0 0)
     (uuid a59ed126-e971-4aaa-ae90-7febc3e834ce)
@@ -435,6 +560,9 @@
   (junction (at 124.46 40.64) (diameter 0) (color 0 0 0 0)
     (uuid b02ea01f-215b-4248-bb41-c1d15b1a7a52)
   )
+  (junction (at 375.92 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid bfc3516b-4017-4d11-bc41-8b6e032ad2ce)
+  )
   (junction (at 124.46 58.42) (diameter 0) (color 0 0 0 0)
     (uuid c18e7632-3f95-462a-9b3b-88dc11bb05de)
   )
@@ -443,6 +571,9 @@
   )
   (junction (at 196.85 58.42) (diameter 0) (color 0 0 0 0)
     (uuid cbcdb465-fa66-4973-b22c-21ea741e7f5e)
+  )
+  (junction (at 364.49 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid ce364004-03d1-4268-ab9e-cbb69791b974)
   )
   (junction (at 52.07 40.64) (diameter 0) (color 0 0 0 0)
     (uuid d73d4bc8-260c-46bb-bd10-e769291f808b)
@@ -456,11 +587,17 @@
   (junction (at 147.32 106.68) (diameter 0) (color 0 0 0 0)
     (uuid e6db932d-7217-4eb3-bf8d-f0edfb155b9f)
   )
+  (junction (at 368.3 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid eaecba65-4edf-4e88-b7e7-70685953f804)
+  )
   (junction (at 148.59 40.64) (diameter 0) (color 0 0 0 0)
     (uuid edb2f5d1-ec3f-4376-83f7-47c22d3f5e94)
   )
   (junction (at 76.2 40.64) (diameter 0) (color 0 0 0 0)
     (uuid f2cc8f4f-97a3-4001-a338-89cde3982d7c)
+  )
+  (junction (at 383.54 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid f3cbfb6a-696d-4022-88e9-65b790f992a6)
   )
   (junction (at 123.19 106.68) (diameter 0) (color 0 0 0 0)
     (uuid ff019ee5-ae34-49e3-a330-1da5c936610b)
@@ -501,6 +638,10 @@
     (stroke (width 0) (type default))
     (uuid 07c5dbf2-1f90-457d-ab20-125a351c3f09)
   )
+  (wire (pts (xy 349.25 35.56) (xy 353.06 35.56))
+    (stroke (width 0) (type default))
+    (uuid 0a4688f6-6028-47e8-ae03-1f0afa79266b)
+  )
   (wire (pts (xy 52.07 45.72) (xy 52.07 40.64))
     (stroke (width 0) (type default))
     (uuid 0b819c30-a880-4410-950d-65527bc6817a)
@@ -508,6 +649,10 @@
   (wire (pts (xy 209.55 88.9) (xy 213.36 88.9))
     (stroke (width 0) (type default))
     (uuid 0cbabdd6-9f8e-45e1-8d57-44233858c37c)
+  )
+  (wire (pts (xy 353.06 35.56) (xy 356.87 35.56))
+    (stroke (width 0) (type default))
+    (uuid 0d7f2203-0fa0-4500-b5f3-80813aceb12d)
   )
   (wire (pts (xy 137.16 53.34) (xy 140.97 53.34))
     (stroke (width 0) (type default))
@@ -641,6 +786,10 @@
     (stroke (width 0) (type default))
     (uuid 2ba5730c-3aae-43f8-8a8b-545ac8fc50d6)
   )
+  (wire (pts (xy 375.92 35.56) (xy 379.73 35.56))
+    (stroke (width 0) (type default))
+    (uuid 2bccd561-7f3b-4fa6-9afa-ea2aef388ff7)
+  )
   (wire (pts (xy 257.81 53.34) (xy 261.62 53.34))
     (stroke (width 0) (type default))
     (uuid 2c0de753-7fec-4796-8664-3b6b218dda3b)
@@ -713,6 +862,10 @@
     (stroke (width 0) (type default))
     (uuid 3910f7ef-aa1d-4842-a9f1-64b5d40393d8)
   )
+  (wire (pts (xy 368.3 35.56) (xy 372.11 35.56))
+    (stroke (width 0) (type default))
+    (uuid 3b6143b2-4778-4646-ba49-dfcc3701af5b)
+  )
   (wire (pts (xy 198.12 81.28) (xy 196.85 81.28))
     (stroke (width 0) (type default))
     (uuid 3d7869e7-1fb3-4aea-a936-9b1d0aa752d4)
@@ -764,6 +917,10 @@
   (wire (pts (xy 269.24 76.2) (xy 245.11 76.2))
     (stroke (width 0) (type default))
     (uuid 48ad6df4-904a-446b-b2ba-b207106d7a5a)
+  )
+  (wire (pts (xy 360.68 35.56) (xy 364.49 35.56))
+    (stroke (width 0) (type default))
+    (uuid 49b5975d-9cff-4429-bac3-a13a34f76afe)
   )
   (wire (pts (xy 77.47 81.28) (xy 76.2 81.28))
     (stroke (width 0) (type default))
@@ -893,6 +1050,10 @@
     (stroke (width 0) (type default))
     (uuid 6009ffd5-1c4a-4501-97fe-7cb540561428)
   )
+  (wire (pts (xy 387.35 35.56) (xy 391.16 35.56))
+    (stroke (width 0) (type default))
+    (uuid 61be2c5d-3df0-475d-8d2c-55e39c777db6)
+  )
   (wire (pts (xy 196.85 63.5) (xy 196.85 58.42))
     (stroke (width 0) (type default))
     (uuid 62bd64cb-c93c-4982-ae9e-51b0a9a0d44d)
@@ -920,6 +1081,10 @@
   (wire (pts (xy 74.93 71.12) (xy 74.93 88.9))
     (stroke (width 0) (type default))
     (uuid 68abb9a8-2973-4a78-b8f2-cea0ba3ee8d0)
+  )
+  (wire (pts (xy 379.73 35.56) (xy 383.54 35.56))
+    (stroke (width 0) (type default))
+    (uuid 68f0a316-98be-456e-adef-9fc3c17e6621)
   )
   (wire (pts (xy 198.12 149.86) (xy 205.74 149.86))
     (stroke (width 0) (type default))
@@ -992,6 +1157,10 @@
   (wire (pts (xy 195.58 106.68) (xy 201.93 106.68))
     (stroke (width 0) (type default))
     (uuid 7d39e095-10fb-48ae-9054-8a8b521faf30)
+  )
+  (wire (pts (xy 383.54 35.56) (xy 387.35 35.56))
+    (stroke (width 0) (type default))
+    (uuid 7e7ff1f7-ac23-4c72-b3e4-1ff19a7df9d7)
   )
   (wire (pts (xy 243.84 88.9) (xy 250.19 88.9))
     (stroke (width 0) (type default))
@@ -1068,6 +1237,14 @@
   (wire (pts (xy 269.24 63.5) (xy 269.24 58.42))
     (stroke (width 0) (type default))
     (uuid 950df0f2-5290-4b51-ab2c-1cef25b57674)
+  )
+  (wire (pts (xy 356.87 35.56) (xy 360.68 35.56))
+    (stroke (width 0) (type default))
+    (uuid 95e86ccc-d37b-4559-a920-8cd5c93a1831)
+  )
+  (wire (pts (xy 364.49 35.56) (xy 368.3 35.56))
+    (stroke (width 0) (type default))
+    (uuid 95fc6393-8cf8-4c39-8a16-6de79aee2c47)
   )
   (wire (pts (xy 293.37 40.64) (xy 269.24 40.64))
     (stroke (width 0) (type default))
@@ -1349,6 +1526,10 @@
     (stroke (width 0) (type default))
     (uuid e4b61ebb-9ed4-440d-a799-6b395d2af40f)
   )
+  (wire (pts (xy 372.11 35.56) (xy 375.92 35.56))
+    (stroke (width 0) (type default))
+    (uuid e4ee652d-69b2-4e38-b815-ae363e684694)
+  )
   (wire (pts (xy 269.24 45.72) (xy 269.24 40.64))
     (stroke (width 0) (type default))
     (uuid e5bb4f94-a9fb-482e-b899-2b00622a6864)
@@ -1442,7 +1623,7 @@
     (uuid ff0d986c-762f-4cfd-b1ed-e1092bb5539d)
   )
 
-  (label "COL5" (at 198.12 167.64 0) (fields_autoplaced)
+  (label "COL5" (at 198.12 165.1 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 00f0dc9a-b11a-4a97-b32f-67c68ec9aef6)
   )
@@ -1450,11 +1631,11 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 02ad19f8-5982-4e40-9fd2-950c4aea9ec6)
   )
-  (label "COL1" (at 198.12 157.48 0) (fields_autoplaced)
+  (label "COL1" (at 198.12 154.94 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 0a84a2d4-fda6-455e-a181-e56f8dcf8f39)
   )
-  (label "COL8" (at 162.56 162.56 180) (fields_autoplaced)
+  (label "COL8" (at 162.56 160.02 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 0dbd19b8-a563-40aa-96df-0ad383935f59)
   )
@@ -1466,7 +1647,7 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 11114b3e-f986-4e8c-9b65-516579fd7d1d)
   )
-  (label "COL6" (at 162.56 167.64 180) (fields_autoplaced)
+  (label "COL6" (at 162.56 165.1 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 11a48fb6-f713-498e-bbbe-3ee65a118ccd)
   )
@@ -1474,7 +1655,7 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 17e75304-1285-4525-b009-34d76130faa2)
   )
-  (label "COL3" (at 198.12 162.56 0) (fields_autoplaced)
+  (label "COL3" (at 198.12 160.02 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 19ce1d96-0bd7-48fb-84b9-ffabeb7164fd)
   )
@@ -1490,7 +1671,7 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 3ed17377-cc1f-4eef-90f8-1f79ede19eb4)
   )
-  (label "COL7" (at 162.56 165.1 180) (fields_autoplaced)
+  (label "COL7" (at 162.56 162.56 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 4ec8321d-d147-48e0-95ab-5c654122c8b1)
   )
@@ -1502,11 +1683,11 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 59c611c0-d739-43de-ad1d-ece104364290)
   )
-  (label "COL4" (at 198.12 165.1 0) (fields_autoplaced)
+  (label "COL4" (at 198.12 162.56 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 5e567b00-bbb1-45c6-9912-adc09488abdb)
   )
-  (label "COL10" (at 162.56 157.48 180) (fields_autoplaced)
+  (label "COL10" (at 162.56 154.94 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 641ea151-b8b4-450f-a054-7fc59853f43b)
   )
@@ -1518,7 +1699,7 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 85e4b2a7-7ce5-4e42-b338-1aef8fac4f15)
   )
-  (label "COL9" (at 162.56 160.02 180) (fields_autoplaced)
+  (label "COL9" (at 162.56 157.48 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 8638780c-8e5f-44ad-a08d-222ea5f1d1ec)
   )
@@ -1542,7 +1723,7 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 9e3dbc2e-901c-4287-a57f-16d8988bd22c)
   )
-  (label "COL2" (at 198.12 160.02 0) (fields_autoplaced)
+  (label "COL2" (at 198.12 157.48 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid ad5af265-8ecd-4b30-9597-c5277062bdd9)
   )
@@ -1558,7 +1739,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 60.96 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e77bb)
-    (property "Reference" "SW7" (at 64.77 42.926 0)
+    (property "Reference" "SW0" (at 64.77 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 60.96 47.752 0)
@@ -1575,9 +1756,9 @@
     (pin "2" (uuid 310ad6ce-f68d-4a34-8bbe-6062cb48d035))
     (pin "3" (uuid d2df1eb7-8916-421d-ab79-bdfc433fbf03))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW7") (unit 1)
+          (reference "SW0") (unit 1)
         )
       )
     )
@@ -1586,7 +1767,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 60.96 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e77ce)
-    (property "Reference" "SW8" (at 64.77 60.706 0)
+    (property "Reference" "SW1" (at 64.77 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 60.96 65.532 0)
@@ -1603,9 +1784,9 @@
     (pin "2" (uuid d469ebab-6083-464f-a996-76cbced9129b))
     (pin "3" (uuid 09ed6adf-badf-4fd9-8440-cc44c4bfafde))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW8") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -1614,7 +1795,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 60.96 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e77e1)
-    (property "Reference" "SW9" (at 64.77 78.486 0)
+    (property "Reference" "SW2" (at 64.77 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 60.96 83.312 0)
@@ -1631,9 +1812,9 @@
     (pin "2" (uuid 68fb8b43-253a-4764-aa4c-7550430a304e))
     (pin "3" (uuid 88f091ee-27b5-4a65-9c7c-2744b209c006))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW9") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -1642,7 +1823,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 85.09 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7f36)
-    (property "Reference" "SW12" (at 88.9 42.926 0)
+    (property "Reference" "SW3" (at 88.9 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 85.09 47.752 0)
@@ -1659,9 +1840,9 @@
     (pin "2" (uuid f9b5b4be-4569-4dfc-a5a6-228da79e0aa6))
     (pin "3" (uuid 6cae5600-1569-4063-94b2-16dc6a8888bd))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW12") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -1670,7 +1851,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 85.09 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7f49)
-    (property "Reference" "SW13" (at 88.9 60.706 0)
+    (property "Reference" "SW4" (at 88.9 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 85.09 65.532 0)
@@ -1687,9 +1868,9 @@
     (pin "2" (uuid 67651a47-bc0a-4c2a-a1b2-0710c8658b44))
     (pin "3" (uuid 395d4bb9-dcd1-4560-8239-4e143618e790))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW13") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -1698,7 +1879,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 85.09 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7f5c)
-    (property "Reference" "SW14" (at 88.9 78.486 0)
+    (property "Reference" "SW5" (at 88.9 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 85.09 83.312 0)
@@ -1715,9 +1896,9 @@
     (pin "2" (uuid c70f0a1d-a245-4f70-a473-466f2596db6f))
     (pin "3" (uuid 5730ae0d-93d5-4414-ac3b-848c5f9b09f5))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW14") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -1726,7 +1907,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 109.22 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7f95)
-    (property "Reference" "SW17" (at 113.03 42.926 0)
+    (property "Reference" "SW6" (at 113.03 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 109.22 47.752 0)
@@ -1743,9 +1924,9 @@
     (pin "2" (uuid 74c01831-c17c-46ce-9633-cb8c6ca852f8))
     (pin "3" (uuid 5fd2e823-f99c-46f9-babb-271a4d95cfff))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW17") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -1754,7 +1935,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 109.22 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7fa8)
-    (property "Reference" "SW18" (at 113.03 60.706 0)
+    (property "Reference" "SW7" (at 113.03 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 109.22 65.532 0)
@@ -1771,9 +1952,9 @@
     (pin "2" (uuid 0a38935a-d1ff-427a-a204-628943c5192e))
     (pin "3" (uuid 91f62265-1c89-4ba1-bb86-9289345c6c75))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW18") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -1782,7 +1963,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 109.22 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e7fbb)
-    (property "Reference" "SW19" (at 113.03 78.486 0)
+    (property "Reference" "SW8" (at 113.03 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 109.22 83.312 0)
@@ -1799,9 +1980,9 @@
     (pin "2" (uuid b433f371-a63b-47bd-8902-a74131c6d2ee))
     (pin "3" (uuid 084bff9f-a0bc-4625-a02a-da3eb5619676))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW19") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -1810,7 +1991,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 133.35 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e8238)
-    (property "Reference" "SW22" (at 137.16 42.926 0)
+    (property "Reference" "SW9" (at 137.16 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 133.35 47.752 0)
@@ -1827,9 +2008,9 @@
     (pin "2" (uuid d128d83d-2c71-4873-b65d-544fbecd0a09))
     (pin "3" (uuid 4f904785-7614-4ddc-97df-28e810520b62))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW22") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
     )
@@ -1838,7 +2019,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 133.35 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e824b)
-    (property "Reference" "SW23" (at 137.16 60.706 0)
+    (property "Reference" "SW10" (at 137.16 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 133.35 65.532 0)
@@ -1855,9 +2036,9 @@
     (pin "2" (uuid 508c937f-e5b6-4e1c-97fb-cfcded1f96e9))
     (pin "3" (uuid 1d2c1cab-000b-48cd-a3da-12b900b1789e))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW23") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
     )
@@ -1866,7 +2047,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 133.35 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e825e)
-    (property "Reference" "SW24" (at 137.16 78.486 0)
+    (property "Reference" "SW11" (at 137.16 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 133.35 83.312 0)
@@ -1883,9 +2064,9 @@
     (pin "2" (uuid a358c89b-73ff-4476-9e9c-c6a643da544a))
     (pin "3" (uuid 8a56edc4-f093-462b-bdd5-4aa3c1f8f41a))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW24") (unit 1)
+          (reference "SW11") (unit 1)
         )
       )
     )
@@ -1894,7 +2075,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 133.35 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e8271)
-    (property "Reference" "SW25" (at 137.16 96.266 0)
+    (property "Reference" "SW12" (at 137.16 96.266 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 133.35 101.092 0)
@@ -1911,9 +2092,9 @@
     (pin "2" (uuid e545bb67-5ca3-454d-b177-6c3730de9496))
     (pin "3" (uuid a094c566-7701-4bc9-ad92-33e725468dc4))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW25") (unit 1)
+          (reference "SW12") (unit 1)
         )
       )
     )
@@ -1922,7 +2103,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 157.48 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e8297)
-    (property "Reference" "SW27" (at 161.29 42.926 0)
+    (property "Reference" "SW13" (at 161.29 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 157.48 47.752 0)
@@ -1939,9 +2120,9 @@
     (pin "2" (uuid f28acf60-dc4f-4a7a-9a85-e3b0dce7ce04))
     (pin "3" (uuid 00474629-3160-4bd5-97c5-c3b342c3189a))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW27") (unit 1)
+          (reference "SW13") (unit 1)
         )
       )
     )
@@ -1950,7 +2131,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 157.48 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e82aa)
-    (property "Reference" "SW28" (at 161.29 60.706 0)
+    (property "Reference" "SW14" (at 161.29 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 157.48 65.532 0)
@@ -1967,9 +2148,9 @@
     (pin "2" (uuid d81cafda-8426-4fb4-8b5a-57ca091f8b15))
     (pin "3" (uuid 275a50a8-237a-46b6-9fd1-6fbb338fa94a))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW28") (unit 1)
+          (reference "SW14") (unit 1)
         )
       )
     )
@@ -1978,7 +2159,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 157.48 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e82bd)
-    (property "Reference" "SW29" (at 161.29 78.486 0)
+    (property "Reference" "SW15" (at 161.29 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 157.48 83.312 0)
@@ -1995,9 +2176,9 @@
     (pin "2" (uuid 9a554126-76f7-4bac-86b9-8fa33b65609a))
     (pin "3" (uuid 4d994433-f34b-432d-9afa-43d6d9de9e92))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW29") (unit 1)
+          (reference "SW15") (unit 1)
         )
       )
     )
@@ -2006,7 +2187,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 157.48 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581e82d0)
-    (property "Reference" "SW30" (at 161.29 96.266 0)
+    (property "Reference" "SW16" (at 161.29 96.266 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 157.48 101.092 0)
@@ -2023,9 +2204,9 @@
     (pin "2" (uuid 45ff77a2-a652-49b7-b1c3-2bd2ef659a9c))
     (pin "3" (uuid 4f9d82e6-ef74-4860-8012-4cef2ebf3847))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW30") (unit 1)
+          (reference "SW16") (unit 1)
         )
       )
     )
@@ -2034,7 +2215,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 205.74 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd32)
-    (property "Reference" "SW34" (at 209.55 42.926 0)
+    (property "Reference" "SW17" (at 209.55 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 205.74 47.752 0)
@@ -2051,9 +2232,9 @@
     (pin "2" (uuid 58f9269d-bd73-4588-a99c-532d3f6e1b89))
     (pin "3" (uuid 336df1ec-9aff-40b0-848d-830c0d212131))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW34") (unit 1)
+          (reference "SW17") (unit 1)
         )
       )
     )
@@ -2062,7 +2243,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 205.74 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd45)
-    (property "Reference" "SW35" (at 209.55 60.706 0)
+    (property "Reference" "SW18" (at 209.55 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 205.74 65.532 0)
@@ -2079,9 +2260,9 @@
     (pin "2" (uuid b4f7fe66-87bf-4f6c-9ebb-0619401372f5))
     (pin "3" (uuid 3b8e8404-dc4d-4e0f-858a-594f1bbf11bb))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW35") (unit 1)
+          (reference "SW18") (unit 1)
         )
       )
     )
@@ -2090,7 +2271,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 205.74 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd58)
-    (property "Reference" "SW36" (at 209.55 78.486 0)
+    (property "Reference" "SW19" (at 209.55 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 205.74 83.312 0)
@@ -2107,9 +2288,9 @@
     (pin "2" (uuid f3cda436-7a17-4dd8-bee2-c3cdf03066c4))
     (pin "3" (uuid a552fa92-d9df-408e-af18-7db3b0e70709))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW36") (unit 1)
+          (reference "SW19") (unit 1)
         )
       )
     )
@@ -2118,7 +2299,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 205.74 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd6b)
-    (property "Reference" "SW37" (at 209.55 96.266 0)
+    (property "Reference" "SW20" (at 209.55 96.266 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 205.74 101.092 0)
@@ -2135,9 +2316,9 @@
     (pin "2" (uuid 40e43c87-baee-4d81-9e63-e2ec807fd9a0))
     (pin "3" (uuid 22b790af-c9ed-40a5-b2d5-93120df930f1))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW37") (unit 1)
+          (reference "SW20") (unit 1)
         )
       )
     )
@@ -2146,7 +2327,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 229.87 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edd91)
-    (property "Reference" "SW39" (at 233.68 42.926 0)
+    (property "Reference" "SW21" (at 233.68 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 229.87 47.752 0)
@@ -2163,9 +2344,9 @@
     (pin "2" (uuid 74080c31-a6c2-4047-84dd-32ca96c61a82))
     (pin "3" (uuid 31a5b7c6-e6fd-41e1-ae26-5641a4a3147d))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW39") (unit 1)
+          (reference "SW21") (unit 1)
         )
       )
     )
@@ -2174,7 +2355,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 229.87 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edda4)
-    (property "Reference" "SW40" (at 233.68 60.706 0)
+    (property "Reference" "SW22" (at 233.68 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 229.87 65.532 0)
@@ -2191,9 +2372,9 @@
     (pin "2" (uuid 0e17bb44-caf3-4029-8dc9-e39c6151b8cd))
     (pin "3" (uuid 6780b436-ccff-4473-89c8-26ce77ce2532))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW40") (unit 1)
+          (reference "SW22") (unit 1)
         )
       )
     )
@@ -2202,7 +2383,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 229.87 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581eddb7)
-    (property "Reference" "SW41" (at 233.68 78.486 0)
+    (property "Reference" "SW23" (at 233.68 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 229.87 83.312 0)
@@ -2219,9 +2400,9 @@
     (pin "2" (uuid 077088aa-ac9a-4878-bad8-328955338ebd))
     (pin "3" (uuid 4bfda42c-5b4d-49ff-838e-3b404d02e947))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW41") (unit 1)
+          (reference "SW23") (unit 1)
         )
       )
     )
@@ -2230,7 +2411,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 229.87 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581eddca)
-    (property "Reference" "SW42" (at 233.68 96.266 0)
+    (property "Reference" "SW24" (at 233.68 96.266 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 229.87 101.092 0)
@@ -2247,9 +2428,9 @@
     (pin "2" (uuid 4aabfa0b-c077-4aeb-b399-071e4e7ac5f5))
     (pin "3" (uuid e14a1a02-e964-41c7-b9e5-2dc24568d06c))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW42") (unit 1)
+          (reference "SW24") (unit 1)
         )
       )
     )
@@ -2258,7 +2439,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 254 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581eddf0)
-    (property "Reference" "SW44" (at 257.81 42.926 0)
+    (property "Reference" "SW25" (at 257.81 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 254 47.752 0)
@@ -2275,9 +2456,9 @@
     (pin "2" (uuid 16e28297-2b79-49ff-90a2-2e1f1d3bbd50))
     (pin "3" (uuid 902757b9-4319-43ab-bfa9-67770c834d0f))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW44") (unit 1)
+          (reference "SW25") (unit 1)
         )
       )
     )
@@ -2286,7 +2467,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 254 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede03)
-    (property "Reference" "SW45" (at 257.81 60.706 0)
+    (property "Reference" "SW26" (at 257.81 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 254 65.532 0)
@@ -2303,9 +2484,9 @@
     (pin "2" (uuid b3fcf1a2-8fe2-4369-b948-9ecfd23094c9))
     (pin "3" (uuid a0480db3-1283-4e09-8a58-03ddf8c34700))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW45") (unit 1)
+          (reference "SW26") (unit 1)
         )
       )
     )
@@ -2314,7 +2495,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 254 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede16)
-    (property "Reference" "SW46" (at 257.81 78.486 0)
+    (property "Reference" "SW27" (at 257.81 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 254 83.312 0)
@@ -2331,9 +2512,9 @@
     (pin "2" (uuid 3e51d11a-e753-4470-a4f4-ddabbd3ea8e2))
     (pin "3" (uuid c8f66f24-e619-413a-80ae-d598ae49df86))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW46") (unit 1)
+          (reference "SW27") (unit 1)
         )
       )
     )
@@ -2342,7 +2523,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 278.13 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede4f)
-    (property "Reference" "SW49" (at 281.94 42.926 0)
+    (property "Reference" "SW28" (at 281.94 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 278.13 47.752 0)
@@ -2359,9 +2540,9 @@
     (pin "2" (uuid a126757f-70fb-4d0c-b343-d4f2a76707cc))
     (pin "3" (uuid d1be92be-757e-427a-8ac9-5da0aa518fab))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW49") (unit 1)
+          (reference "SW28") (unit 1)
         )
       )
     )
@@ -2370,7 +2551,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 278.13 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede62)
-    (property "Reference" "SW50" (at 281.94 60.706 0)
+    (property "Reference" "SW29" (at 281.94 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 278.13 65.532 0)
@@ -2387,9 +2568,9 @@
     (pin "2" (uuid 0d992748-0686-4eb1-b104-0fad51631966))
     (pin "3" (uuid f5235851-2911-4e77-94ab-b518de5f05a4))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW50") (unit 1)
+          (reference "SW29") (unit 1)
         )
       )
     )
@@ -2398,7 +2579,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 278.13 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581ede75)
-    (property "Reference" "SW51" (at 281.94 78.486 0)
+    (property "Reference" "SW30" (at 281.94 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 278.13 83.312 0)
@@ -2415,9 +2596,9 @@
     (pin "2" (uuid c6040086-1642-4b6c-93c5-ac4f5e46d582))
     (pin "3" (uuid d36f3430-e47d-4ecb-a409-7ffb7f430925))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW51") (unit 1)
+          (reference "SW30") (unit 1)
         )
       )
     )
@@ -2426,7 +2607,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 302.26 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edeae)
-    (property "Reference" "SW54" (at 306.07 42.926 0)
+    (property "Reference" "SW31" (at 306.07 42.926 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 302.26 47.752 0)
@@ -2443,9 +2624,9 @@
     (pin "2" (uuid e40b4eda-e1a9-421c-ac24-01781ff3d04d))
     (pin "3" (uuid a371bf5e-03f6-458d-8195-1cf1497b3fed))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW54") (unit 1)
+          (reference "SW31") (unit 1)
         )
       )
     )
@@ -2454,7 +2635,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 302.26 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581edec1)
-    (property "Reference" "SW55" (at 306.07 60.706 0)
+    (property "Reference" "SW32" (at 306.07 60.706 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 302.26 65.532 0)
@@ -2471,9 +2652,9 @@
     (pin "2" (uuid 3bcbfa34-7b08-4ee5-a7ec-3f4b16643977))
     (pin "3" (uuid 003090ba-729e-4e85-be12-ce6519399677))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW55") (unit 1)
+          (reference "SW32") (unit 1)
         )
       )
     )
@@ -2482,7 +2663,7 @@
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 302.26 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000581eded4)
-    (property "Reference" "SW56" (at 306.07 78.486 0)
+    (property "Reference" "SW33" (at 306.07 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWITCH_PUSH" (at 302.26 83.312 0)
@@ -2499,9 +2680,9 @@
     (pin "2" (uuid 9930560c-5117-4b86-96dc-6f946486039d))
     (pin "3" (uuid 711cafc8-4528-40f9-a51a-2338796c9f91))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "SW56") (unit 1)
+          (reference "SW33") (unit 1)
         )
       )
     )
@@ -2510,7 +2691,7 @@
   (symbol (lib_id "symbols:ProMicro") (at 180.34 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058242ad2)
-    (property "Reference" "U1" (at 182.88 165.1 90)
+    (property "Reference" "U0" (at 182.88 165.1 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "ARDUINO_PRO_MICRO" (at 180.34 165.1 90)
@@ -2547,9 +2728,9 @@
     (pin "10" (uuid e7202249-91e6-4437-8000-66845dee4a83))
     (pin "11" (uuid 7351a1a6-d641-49d5-9474-aa7bd6c549ec))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "U1") (unit 1)
+          (reference "U0") (unit 1)
         )
       )
     )
@@ -2558,7 +2739,7 @@
   (symbol (lib_id "Atreus62-rescue:GND") (at 198.12 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000582a256b)
-    (property "Reference" "#PWR01" (at 204.47 147.32 0)
+    (property "Reference" "#PWR02" (at 204.47 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 147.32 0)
@@ -2572,9 +2753,9 @@
     )
     (pin "1" (uuid 91559134-bf85-4403-a589-f0f830522bfe))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2583,7 +2764,7 @@
   (symbol (lib_id "Atreus62-rescue:VCC") (at 198.12 152.4 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000582a7904)
-    (property "Reference" "#PWR02" (at 194.31 152.4 0)
+    (property "Reference" "#PWR03" (at 194.31 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 201.93 152.4 0)
@@ -2597,9 +2778,9 @@
     )
     (pin "1" (uuid d4759b87-e718-4ad9-959f-7b426d30564f))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2608,7 +2789,7 @@
   (symbol (lib_id "Atreus62-rescue:GND") (at 153.67 149.86 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000582bdd75)
-    (property "Reference" "#PWR03" (at 147.32 149.86 0)
+    (property "Reference" "#PWR00" (at 147.32 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 149.86 0)
@@ -2622,9 +2803,9 @@
     )
     (pin "1" (uuid 0558c567-ee2f-4da4-bb8a-2ba49814b7cd))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR00") (unit 1)
         )
       )
     )
@@ -2633,7 +2814,7 @@
   (symbol (lib_id "Atreus62-rescue:GND") (at 153.67 152.4 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000582bdf83)
-    (property "Reference" "#PWR04" (at 147.32 152.4 0)
+    (property "Reference" "#PWR01" (at 147.32 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 152.4 0)
@@ -2647,9 +2828,9 @@
     )
     (pin "1" (uuid 5c58a7df-83a5-4d21-94ad-a7233e6ba18e))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2658,13 +2839,13 @@
   (symbol (lib_id "symbols:SWITCH_PUSH") (at 213.36 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005839bff0)
-    (property "Reference" "RST1" (at 217.17 147.066 0)
+    (property "Reference" "RST0" (at 217.17 147.066 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RESET_SWITCH" (at 213.36 151.892 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:reset_button" (at 213.36 149.86 0)
+    (property "Footprint" "footprints:kailh_choc" (at 213.36 149.86 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 213.36 149.86 0)
@@ -2673,9 +2854,9 @@
     (pin "1" (uuid 174fde44-b2b5-492d-adda-53849713de35))
     (pin "2" (uuid 4bf856bb-eb0c-446d-9bfb-b85ad54cf3d3))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "RST1") (unit 1)
+          (reference "RST0") (unit 1)
         )
       )
     )
@@ -2684,7 +2865,7 @@
   (symbol (lib_id "Atreus62-rescue:GND") (at 226.06 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000583a2352)
-    (property "Reference" "#PWR05" (at 226.06 163.83 0)
+    (property "Reference" "#PWR04" (at 226.06 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 161.29 0)
@@ -2698,9 +2879,430 @@
     )
     (pin "1" (uuid b97c1a26-8fd3-4f80-9371-5e0b6e8990dd))
     (instances
-      (project "jl142_pcb"
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 360.68 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 03860470-b90a-4d58-b0d9-aa79d1fabf97)
+    (property "Reference" "H1" (at 363.22 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 363.22 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 360.68 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 360.68 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 470e72f9-e6f7-41c4-8397-ce4f2ad508aa))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 387.35 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 081c6cdc-5dd8-40c4-96d2-e222e09052bd)
+    (property "Reference" "H8" (at 389.89 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 389.89 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 387.35 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 387.35 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 15a324ab-9845-4026-9851-a2c005924118))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 373.38 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1b0cdef9-7006-485a-9b7f-2c38edb95e38)
+    (property "Reference" "H15" (at 375.92 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 375.92 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 373.38 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 373.38 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 391.16 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2c6e4436-6fdc-4704-8d1c-842f5ea751fc)
+    (property "Reference" "H9" (at 393.7 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 393.7 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 391.16 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 391.16 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bbe9510f-49f2-4a2a-ac70-05fe5f79f1ce))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 379.73 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 44125848-67dd-4835-b4f3-c7c3acce52eb)
+    (property "Reference" "H6" (at 382.27 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 382.27 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 379.73 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 379.73 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6cfcbf80-fe20-42c2-918f-714ae290453c))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 364.49 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7b03afa3-c77a-4616-822a-597bc117e830)
+    (property "Reference" "H2" (at 367.03 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 367.03 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 364.49 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 364.49 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 35bb80d1-4ea0-4977-80cd-d725b15f8b90))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 372.11 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 88e173c1-29bd-46d5-a47b-2f6d0d70c693)
+    (property "Reference" "H4" (at 374.65 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 374.65 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 372.11 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 372.11 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6ba84afa-15d5-4c5b-9402-92f7c38e073a))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 349.25 35.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9f389654-bf68-4959-ac77-6ceae5c024a1)
+    (property "Reference" "#PWR05" (at 349.25 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 349.25 40.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 349.25 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 349.25 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 66ef0b14-abb6-402e-901b-ccc149a58a75))
+    (instances
+      (project "jlk_pcb"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 369.57 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a4209461-b647-47cb-a29a-f593d7775bb9)
+    (property "Reference" "H14" (at 372.11 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 372.11 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 369.57 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 369.57 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 368.3 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a94e83c0-4cfd-4367-83e0-6f1698730b94)
+    (property "Reference" "H3" (at 370.84 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 370.84 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 368.3 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 368.3 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0b5d7244-e52d-4600-b2a0-d25b43662887))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 361.95 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a9c9a444-d8b9-4f0c-8c0b-53a3cb964ac4)
+    (property "Reference" "H12" (at 364.49 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 364.49 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 361.95 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 361.95 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 375.92 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b1f70069-b2d1-45ec-9839-939ca55bb6f2)
+    (property "Reference" "H5" (at 378.46 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 378.46 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 375.92 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 375.92 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8f803614-df2d-48c9-9a71-81e66c0ee7e7))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 349.25 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c1fa18e0-2cba-4505-a00e-6a41e8c33473)
+    (property "Reference" "H11" (at 351.79 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 351.79 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 349.25 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 349.25 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eb55dac3-b2fa-4c8e-bbd8-498a30d93f7a))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 383.54 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cf1d07f6-bb8f-4d40-aabc-c0183735f2d2)
+    (property "Reference" "H7" (at 386.08 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 386.08 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 383.54 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 383.54 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bf19d29e-004c-4842-867c-57151a6b6fab))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 353.06 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d7101848-eff6-4ba1-98ba-fb701f925846)
+    (property "Reference" "H10" (at 355.6 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 355.6 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 353.06 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 353.06 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7503e857-83d3-43c1-b830-3bf6ccfd5f37))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 356.87 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ed819495-ba76-4525-bf55-c6748dfe498b)
+    (property "Reference" "H0" (at 359.41 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 359.41 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 356.87 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 356.87 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c7a197b4-1af8-4025-955b-cb863c577a19))
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H0") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 365.76 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f5f4953f-451a-4479-899f-bf8679abcb71)
+    (property "Reference" "H13" (at 368.3 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 368.3 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 365.76 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 365.76 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "jlk_pcb"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H13") (unit 1)
         )
       )
     )
