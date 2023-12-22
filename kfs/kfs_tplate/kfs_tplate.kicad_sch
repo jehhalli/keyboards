@@ -5,74 +5,6 @@
   (paper "USLedger")
 
   (lib_symbols
-    (symbol "Atreus62-rescue:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Atreus62-rescue:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (circle (center 0 1.905) (radius 0.635)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
@@ -99,162 +31,6 @@
         (circle (center 0 0) (radius 1.27)
           (stroke (width 1.27) (type default))
           (fill (type none))
-        )
-      )
-    )
-    (symbol "symbols:ProMicro" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U1" (at 0 24.13 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "ProMicro" (at 0 -13.97 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "ProMicro_v2" (at 2.54 -26.67 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Datasheet" "" (at 2.54 -26.67 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (symbol "ProMicro_0_1"
-        (rectangle (start -12.7 21.59) (end 12.7 -11.43)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "ProMicro_1_1"
-        (pin bidirectional line (at -17.78 19.05 0) (length 5.08)
-          (name "TX" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 -3.81 0) (length 5.08)
-          (name "E6" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 -6.35 0) (length 5.08)
-          (name "B4" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 -8.89 0) (length 5.08)
-          (name "B5" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 17.78 -8.89 180) (length 5.08)
-          (name "B6" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 17.78 -6.35 180) (length 5.08)
-          (name "B2" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 17.78 -3.81 180) (length 5.08)
-          (name "B3" (effects (font (size 1.27 1.27))))
-          (number "15" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 17.78 -1.27 180) (length 5.08)
-          (name "B1" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 17.78 1.27 180) (length 5.08)
-          (name "F7" (effects (font (size 1.27 1.27))))
-          (number "17" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 17.78 3.81 180) (length 5.08)
-          (name "F6" (effects (font (size 1.27 1.27))))
-          (number "18" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 17.78 6.35 180) (length 5.08)
-          (name "F5" (effects (font (size 1.27 1.27))))
-          (number "19" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 16.51 0) (length 5.08)
-          (name "RX" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 17.78 8.89 180) (length 5.08)
-          (name "F4" (effects (font (size 1.27 1.27))))
-          (number "20" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 17.78 11.43 180) (length 5.08)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "21" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 17.78 13.97 180) (length 5.08)
-          (name "RST" (effects (font (size 1.27 1.27))))
-          (number "22" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 17.78 16.51 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "23" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 17.78 19.05 180) (length 5.08)
-          (name "RAW" (effects (font (size 1.27 1.27))))
-          (number "24" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -17.78 13.97 0) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -17.78 11.43 0) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 8.89 0) (length 5.08)
-          (name "SDA" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 6.35 0) (length 5.08)
-          (name "SCL" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 3.81 0) (length 5.08)
-          (name "D4" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 1.27 0) (length 5.08)
-          (name "C6" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 -1.27 0) (length 5.08)
-          (name "D7" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "symbols:SWITCH_PUSH" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 3.81 2.794 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SWITCH_PUSH" (at 0 -2.032 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (symbol "SWITCH_PUSH_0_1"
-        (rectangle (start -4.318 1.27) (end 4.318 1.524)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 1.524)
-            (xy -0.762 2.286)
-            (xy 0.762 2.286)
-            (xy 1.016 1.524)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (pin passive inverted (at -7.62 0 0) (length 5.08)
-          (name "1" (effects (font (size 1.524 1.524))))
-          (number "1" (effects (font (size 1.524 1.524))))
-        )
-        (pin passive inverted (at 7.62 0 180) (length 5.08)
-          (name "2" (effects (font (size 1.524 1.524))))
-          (number "2" (effects (font (size 1.524 1.524))))
         )
       )
     )
@@ -665,10 +441,6 @@
     (stroke (width 0) (type default))
     (uuid 007e9eb2-7a6d-4b95-b82d-7b505cee0446)
   )
-  (wire (pts (xy 153.67 152.4) (xy 162.56 152.4))
-    (stroke (width 0) (type default))
-    (uuid 04dc8ba7-facc-4a89-a365-74f860aa65a3)
-  )
   (wire (pts (xy 55.88 27.94) (xy 55.88 46.99))
     (stroke (width 0) (type default))
     (uuid 0652c8ab-9eb9-46b3-a821-60bc31d3b277)
@@ -753,10 +525,6 @@
     (stroke (width 0) (type default))
     (uuid 2ca9c870-0b67-464a-b590-f2eeecb45416)
   )
-  (wire (pts (xy 226.06 149.86) (xy 226.06 157.48))
-    (stroke (width 0) (type default))
-    (uuid 2f3bc254-212b-444b-a0cf-9e394b2798bf)
-  )
   (wire (pts (xy 152.4 35.56) (xy 172.72 35.56))
     (stroke (width 0) (type default))
     (uuid 31e0e056-9bc8-4ec7-b20c-0c0c11bdafd3)
@@ -809,10 +577,6 @@
     (stroke (width 0) (type default))
     (uuid 4e9865c4-73ca-4df5-9ad2-96eb37d52ac5)
   )
-  (wire (pts (xy 220.98 149.86) (xy 226.06 149.86))
-    (stroke (width 0) (type default))
-    (uuid 4f0b418b-68b6-4e68-960f-8c44269db0e7)
-  )
   (wire (pts (xy 96.52 27.94) (xy 96.52 46.99))
     (stroke (width 0) (type default))
     (uuid 503bc911-efb0-4c37-a08b-73ddfceb4668)
@@ -836,10 +600,6 @@
   (wire (pts (xy 213.36 73.66) (xy 233.68 73.66))
     (stroke (width 0) (type default))
     (uuid 640bffc5-6ed8-4903-b719-54fb9aeea7ca)
-  )
-  (wire (pts (xy 198.12 149.86) (xy 205.74 149.86))
-    (stroke (width 0) (type default))
-    (uuid 69722ee5-3dcb-48ab-9c8c-6edf3deb092a)
   )
   (wire (pts (xy 254 111.76) (xy 274.32 111.76))
     (stroke (width 0) (type default))
@@ -1161,10 +921,6 @@
     (stroke (width 0) (type default))
     (uuid f2609463-00ce-4240-8963-1ac3facb2c27)
   )
-  (wire (pts (xy 153.67 149.86) (xy 162.56 149.86))
-    (stroke (width 0) (type default))
-    (uuid f71c7a81-80b5-4d86-a628-94fe7d0602cf)
-  )
   (wire (pts (xy 116.84 27.94) (xy 116.84 46.99))
     (stroke (width 0) (type default))
     (uuid f7981d3d-de41-4918-9bb4-79b2faa4878d)
@@ -1190,21 +946,9 @@
     (uuid fd89ec87-99e9-4baf-8e13-1b98d1f324ac)
   )
 
-  (label "COL5" (at 198.12 167.64 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 00f0dc9a-b11a-4a97-b32f-67c68ec9aef6)
-  )
   (label "COL2" (at 76.2 118.11 270) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 02ad19f8-5982-4e40-9fd2-950c4aea9ec6)
-  )
-  (label "COL1" (at 198.12 157.48 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 0a84a2d4-fda6-455e-a181-e56f8dcf8f39)
-  )
-  (label "COL8" (at 162.56 162.56 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 0dbd19b8-a563-40aa-96df-0ad383935f59)
   )
   (label "COL10" (at 238.76 118.11 270) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
@@ -1214,25 +958,9 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 11114b3e-f986-4e8c-9b65-516579fd7d1d)
   )
-  (label "COL6" (at 162.56 167.64 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 11a48fb6-f713-498e-bbbe-3ee65a118ccd)
-  )
   (label "COL8" (at 198.12 118.11 270) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 17e75304-1285-4525-b009-34d76130faa2)
-  )
-  (label "COL3" (at 198.12 162.56 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 19ce1d96-0bd7-48fb-84b9-ffabeb7164fd)
-  )
-  (label "COL11" (at 162.56 154.94 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 1da673a3-3701-4879-b1c5-b582c3b837f8)
-  )
-  (label "ROW0" (at 198.12 172.72 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 1fb375b7-4e06-47a3-aca7-3c330e17fe0d)
   )
   (label "COL1" (at 55.88 118.11 270) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
@@ -1242,10 +970,6 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 2fb6efda-78a4-460c-a0f8-ae35e75eeaf1)
   )
-  (label "COL0" (at 198.12 154.94 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 3192dccf-357f-4335-9609-c9dbca90c460)
-  )
   (label "COL12" (at 279.4 118.11 270) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 3542ffd0-5280-45cf-a6e1-3a1ad215b43d)
@@ -1253,10 +977,6 @@
   (label "COL9" (at 218.44 118.11 270) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 3ed17377-cc1f-4eef-90f8-1f79ede19eb4)
-  )
-  (label "COL7" (at 162.56 165.1 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 4ec8321d-d147-48e0-95ab-5c654122c8b1)
   )
   (label "COL6" (at 157.48 118.11 270) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
@@ -1266,37 +986,9 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 59c611c0-d739-43de-ad1d-ece104364290)
   )
-  (label "COL12" (at 162.56 147.32 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 5e123345-8a4c-4bbd-81df-c811f47e5013)
-  )
-  (label "COL4" (at 198.12 165.1 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 5e567b00-bbb1-45c6-9912-adc09488abdb)
-  )
-  (label "COL10" (at 162.56 157.48 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 641ea151-b8b4-450f-a054-7fc59853f43b)
-  )
-  (label "ROW4" (at 162.56 144.78 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 663f2f69-744b-4370-bcea-d921bff35f47)
-  )
-  (label "ROW1" (at 198.12 170.18 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 6d862328-152e-4aa3-9b91-e2927aac562e)
-  )
   (label "ROW4" (at 30.48 35.56 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 6fa498dd-1998-4a80-854e-f0b24a39a8d4)
-  )
-  (label "ROW3" (at 162.56 170.18 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 85e4b2a7-7ce5-4e42-b338-1aef8fac4f15)
-  )
-  (label "COL9" (at 162.56 160.02 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 8638780c-8e5f-44ad-a08d-222ea5f1d1ec)
   )
   (label "ROW3" (at 30.48 54.61 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
@@ -1318,14 +1010,6 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 9e3dbc2e-901c-4287-a57f-16d8988bd22c)
   )
-  (label "COL2" (at 198.12 160.02 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid ad5af265-8ecd-4b30-9597-c5277062bdd9)
-  )
-  (label "ROW2" (at 162.56 172.72 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid b35c500a-19ea-402b-af81-1cec74a7adda)
-  )
   (label "ROW1" (at 30.48 92.71 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid d6649ecb-184b-49e3-a2cc-99632a2cec39)
@@ -1333,205 +1017,6 @@
   (label "COL0" (at 35.56 118.11 270) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid f371a411-d0b1-45b6-b62a-f44991bb17ca)
-  )
-
-  (symbol (lib_id "symbols:ProMicro") (at 180.34 163.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000058242ad2)
-    (property "Reference" "U0" (at 182.88 165.1 90)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "ARDUINO_PRO_MICRO" (at 180.34 165.1 90)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "ProMicro_v2" (at 182.88 190.5 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 182.88 190.5 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (pin "12" (uuid 18199db7-c5e8-4ca5-aaab-b04731b56b5b))
-    (pin "13" (uuid 14f76c7d-dfc3-4f0a-9a9f-dc775eb31814))
-    (pin "14" (uuid 12e336f3-0734-44cd-a1b3-76d5c59d4b35))
-    (pin "15" (uuid 78bb1a0e-9ab1-40bd-9608-d95bb388f0f1))
-    (pin "16" (uuid 71b74bdc-7136-40ea-a6fe-d2a63817e64e))
-    (pin "17" (uuid 21a43430-b088-4379-840a-9ba23ba88493))
-    (pin "18" (uuid fde8dabe-99b0-44be-8dd0-591883c57c58))
-    (pin "19" (uuid 19b54ede-a4c7-485c-8523-941cd4335f72))
-    (pin "2" (uuid 295bdcd5-481c-4c9b-a39a-02f594712ea0))
-    (pin "20" (uuid c34317b5-9bd8-4c5c-9bfc-2ac698a968d4))
-    (pin "21" (uuid 51ceeeb4-80e2-4ce7-b289-8b6348d44735))
-    (pin "22" (uuid 12323e65-f94f-4f13-b1ed-6f765ce635ca))
-    (pin "23" (uuid 5dec9cc8-f93a-47b5-9159-7c6fe7fcb7c6))
-    (pin "24" (uuid f6fb22c7-d379-4b8c-a364-68da4996ee56))
-    (pin "3" (uuid 7b94d99f-a61b-429b-8494-453f7b85aa0f))
-    (pin "4" (uuid f698bcdc-13c2-4d15-a043-f4a95e037bf1))
-    (pin "5" (uuid 008590be-dfe3-453e-aee4-d1f6dfddd765))
-    (pin "6" (uuid 15f24465-359f-4fde-97b5-a4d35ce76b14))
-    (pin "7" (uuid eb7acc90-4343-43ea-9666-c52d8fbd34c8))
-    (pin "8" (uuid 04efa2b4-9b98-44bb-b45f-e3d7881beb8b))
-    (pin "9" (uuid ff6cb206-f5a8-480a-b0ce-c14263b38f77))
-    (pin "1" (uuid 3857e2fa-0418-441c-964e-ef45bd78e65b))
-    (pin "10" (uuid e7202249-91e6-4437-8000-66845dee4a83))
-    (pin "11" (uuid 7351a1a6-d641-49d5-9474-aa7bd6c549ec))
-    (instances
-      (project "kfs_pcb"
-        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "U0") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Atreus62-rescue:GND") (at 198.12 147.32 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-0000582a256b)
-    (property "Reference" "#PWR02" (at 204.47 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 201.93 147.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 198.12 147.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Datasheet" "" (at 198.12 147.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 91559134-bf85-4403-a589-f0f830522bfe))
-    (instances
-      (project "kfs_pcb"
-        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Atreus62-rescue:VCC") (at 198.12 152.4 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-0000582a7904)
-    (property "Reference" "#PWR03" (at 194.31 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 201.93 152.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 198.12 152.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Datasheet" "" (at 198.12 152.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid d4759b87-e718-4ad9-959f-7b426d30564f))
-    (instances
-      (project "kfs_pcb"
-        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Atreus62-rescue:GND") (at 153.67 149.86 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-0000582bdd75)
-    (property "Reference" "#PWR00" (at 147.32 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 149.86 149.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 153.67 149.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Datasheet" "" (at 153.67 149.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 0558c567-ee2f-4da4-bb8a-2ba49814b7cd))
-    (instances
-      (project "kfs_pcb"
-        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "#PWR00") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Atreus62-rescue:GND") (at 153.67 152.4 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-0000582bdf83)
-    (property "Reference" "#PWR01" (at 147.32 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 149.86 152.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 153.67 152.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Datasheet" "" (at 153.67 152.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 5c58a7df-83a5-4d21-94ad-a7233e6ba18e))
-    (instances
-      (project "kfs_pcb"
-        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "symbols:SWITCH_PUSH") (at 213.36 149.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005839bff0)
-    (property "Reference" "RST0" (at 217.17 147.066 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "RESET_SWITCH" (at 213.36 151.892 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "footprints:reset_button" (at 213.36 149.86 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 213.36 149.86 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid 174fde44-b2b5-492d-adda-53849713de35))
-    (pin "2" (uuid 4bf856bb-eb0c-446d-9bfb-b85ad54cf3d3))
-    (instances
-      (project "kfs_pcb"
-        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "RST0") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Atreus62-rescue:GND") (at 226.06 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-0000583a2352)
-    (property "Reference" "#PWR04" (at 226.06 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 226.06 161.29 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 226.06 157.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Datasheet" "" (at 226.06 157.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid b97c1a26-8fd3-4f80-9371-5e0b6e8990dd))
-    (instances
-      (project "kfs_pcb"
-        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 185.42 46.99 0) (unit 1)
@@ -1543,7 +1028,7 @@
     (property "Value" "SWITCH" (at 187.071 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 185.42 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 185.42 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 185.42 46.99 0)
@@ -1554,7 +1039,7 @@
     (pin "1" (uuid 1d5aad59-22e2-412c-a0ca-14be9af72059))
     (pin "3" (uuid 043555fa-148c-4e4c-8dc1-f7aec2a510f2))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW36") (unit 1)
         )
@@ -1571,14 +1056,14 @@
     (property "Value" "MountingHole" (at 295.91 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 293.37 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 293.37 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 293.37 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H4") (unit 1)
         )
@@ -1595,7 +1080,7 @@
     (property "Value" "SWITCH" (at 44.831 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 43.18 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 43.18 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 43.18 27.94 0)
@@ -1606,7 +1091,7 @@
     (pin "1" (uuid 4196b77a-a2d0-4ef9-b2ad-301ca91f5a15))
     (pin "3" (uuid e1b43617-cbdc-4bb0-be5d-ac313ea1f087))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW0") (unit 1)
         )
@@ -1623,14 +1108,14 @@
     (property "Value" "MountingHole" (at 273.05 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 270.51 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 270.51 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 270.51 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H0") (unit 1)
         )
@@ -1647,7 +1132,7 @@
     (property "Value" "SWITCH" (at 126.111 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 124.46 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 124.46 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 124.46 85.09 0)
@@ -1658,7 +1143,7 @@
     (pin "1" (uuid cf8d080c-0f39-45b2-a072-d7ee79ae2834))
     (pin "3" (uuid 7a4ba966-ef12-4251-9403-c01dfcbf2700))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW23") (unit 1)
         )
@@ -1675,7 +1160,7 @@
     (property "Value" "SWITCH" (at 105.791 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 104.14 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 104.14 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 104.14 27.94 0)
@@ -1686,7 +1171,7 @@
     (pin "1" (uuid 2680e950-8478-4ca8-bca3-fff2f66e76c4))
     (pin "3" (uuid a927f5ac-6c30-4b98-a5ba-7f402be075e4))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW15") (unit 1)
         )
@@ -1703,7 +1188,7 @@
     (property "Value" "SWITCH" (at 268.351 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 266.7 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 266.7 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 266.7 85.09 0)
@@ -1714,7 +1199,7 @@
     (pin "1" (uuid 3b9c39ca-858b-4844-903c-f7346c6fed4f))
     (pin "3" (uuid cf673c52-4a85-4302-85c7-2771a9ac6ed7))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW57") (unit 1)
         )
@@ -1731,7 +1216,7 @@
     (property "Value" "SWITCH" (at 207.391 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 205.74 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 205.74 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.74 66.04 0)
@@ -1742,7 +1227,7 @@
     (pin "1" (uuid fa47cf4a-f1bd-4383-a0c2-fd0fa04f7bcc))
     (pin "3" (uuid 3824864d-ca81-4c7d-b60a-e31299b32049))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW41") (unit 1)
         )
@@ -1759,7 +1244,7 @@
     (property "Value" "SWITCH" (at 65.151 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 63.5 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 63.5 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 63.5 46.99 0)
@@ -1770,7 +1255,7 @@
     (pin "1" (uuid a98cb3b4-09f2-4799-8783-0ba07fb06c6c))
     (pin "3" (uuid 42e695d1-162d-4016-8604-0f577a73a03a))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW6") (unit 1)
         )
@@ -1787,7 +1272,7 @@
     (property "Value" "SWITCH" (at 248.031 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 246.38 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 246.38 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 246.38 85.09 0)
@@ -1798,7 +1283,7 @@
     (pin "1" (uuid 9ff22a1b-a823-4dce-9d6c-5baf031dbd73))
     (pin "3" (uuid c3dbd35b-2ef9-427c-9d38-88eb654220bb))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW52") (unit 1)
         )
@@ -1815,7 +1300,7 @@
     (property "Value" "SWITCH" (at 227.711 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 226.06 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 226.06 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 226.06 66.04 0)
@@ -1826,7 +1311,7 @@
     (pin "1" (uuid 7f7bdd8c-a3c5-43d7-b1b5-8919c7098a35))
     (pin "3" (uuid b57f53e9-9f57-447e-a6eb-087c8d1a917d))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW46") (unit 1)
         )
@@ -1843,7 +1328,7 @@
     (property "Value" "SWITCH" (at 65.151 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 63.5 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 63.5 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 63.5 66.04 0)
@@ -1854,7 +1339,7 @@
     (pin "1" (uuid 024297d7-72c1-49c3-82a0-e20adcaae7b7))
     (pin "3" (uuid feda0e5a-5b2a-4376-bb08-659c1604f867))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW7") (unit 1)
         )
@@ -1871,7 +1356,7 @@
     (property "Value" "SWITCH" (at 44.831 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 43.18 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 43.18 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 43.18 85.09 0)
@@ -1882,7 +1367,7 @@
     (pin "1" (uuid cf9b9991-99ca-4034-9986-e04e49d7b34a))
     (pin "3" (uuid 3ecdd6fd-f338-4c1c-a77b-f4aee8a27791))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW3") (unit 1)
         )
@@ -1899,14 +1384,14 @@
     (property "Value" "MountingHole" (at 284.48 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 281.94 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 281.94 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 281.94 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H3") (unit 1)
         )
@@ -1923,7 +1408,7 @@
     (property "Value" "SWITCH" (at 146.431 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 144.78 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 144.78 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 144.78 85.09 0)
@@ -1934,7 +1419,7 @@
     (pin "1" (uuid 01dbd206-85b1-457e-be39-05ee1cfbd00d))
     (pin "3" (uuid 699fdfdb-36ce-44b7-a666-dbffcbe4a1b5))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW28") (unit 1)
         )
@@ -1951,7 +1436,7 @@
     (property "Value" "SWITCH" (at 85.471 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 83.82 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 83.82 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 83.82 104.14 0)
@@ -1962,7 +1447,7 @@
     (pin "1" (uuid d02cba9c-bfd8-49d2-94a0-fb3fb8aec828))
     (pin "3" (uuid 9b495e3b-6161-4872-a773-132a12ba54c8))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW14") (unit 1)
         )
@@ -1979,7 +1464,7 @@
     (property "Value" "SWITCH" (at 146.431 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 144.78 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 144.78 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 144.78 66.04 0)
@@ -1990,7 +1475,7 @@
     (pin "1" (uuid f12146f3-c759-4d8f-84b5-d0ce8ce51579))
     (pin "3" (uuid 168c2efa-2984-43d3-bb0d-4ed8ff24bb41))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW27") (unit 1)
         )
@@ -2007,7 +1492,7 @@
     (property "Value" "SWITCH" (at 248.031 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 246.38 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 246.38 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 246.38 104.14 0)
@@ -2018,7 +1503,7 @@
     (pin "1" (uuid 7e6b9976-18bf-4166-aa0b-c36e5c32c689))
     (pin "3" (uuid 23729e72-ef77-4e32-9131-f764dc078e52))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW53") (unit 1)
         )
@@ -2035,7 +1520,7 @@
     (property "Value" "SWITCH" (at 166.751 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 165.1 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 165.1 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 165.1 104.14 0)
@@ -2046,7 +1531,7 @@
     (pin "1" (uuid d841e6b5-db0e-4ac7-8dc2-33b74d9502af))
     (pin "3" (uuid 68a0c9dc-e7b9-4d58-9760-87967329268e))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW34") (unit 1)
         )
@@ -2063,7 +1548,7 @@
     (property "Value" "SWITCH" (at 227.711 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 226.06 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 226.06 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 226.06 27.94 0)
@@ -2074,7 +1559,7 @@
     (pin "1" (uuid 2f6f96e3-1f9a-4755-90bc-e961b6a350b8))
     (pin "3" (uuid fb01c67c-c354-4650-aa65-b8a1d5508df2))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW44") (unit 1)
         )
@@ -2091,14 +1576,14 @@
     (property "Value" "MountingHole" (at 280.67 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 278.13 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 278.13 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 278.13 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H2") (unit 1)
         )
@@ -2115,7 +1600,7 @@
     (property "Value" "SWITCH" (at 166.751 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 165.1 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 165.1 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 165.1 27.94 0)
@@ -2126,7 +1611,7 @@
     (pin "1" (uuid 76421cff-9ff4-439b-9c0b-6b0c27f25546))
     (pin "3" (uuid c8acf019-fd4a-4d3f-bd8e-f42a65b9f38c))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW30") (unit 1)
         )
@@ -2143,7 +1628,7 @@
     (property "Value" "SWITCH" (at 268.351 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 266.7 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 266.7 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 266.7 46.99 0)
@@ -2154,7 +1639,7 @@
     (pin "1" (uuid ebb011b0-55d1-4bbc-9fa8-c5f5bf131bc5))
     (pin "3" (uuid dc25ade5-7018-463a-bc6d-1ff0dee28522))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW55") (unit 1)
         )
@@ -2171,14 +1656,14 @@
     (property "Value" "MountingHole" (at 299.72 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 297.18 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 297.18 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 297.18 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H5") (unit 1)
         )
@@ -2195,7 +1680,7 @@
     (property "Value" "SWITCH" (at 85.471 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 83.82 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 83.82 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 83.82 66.04 0)
@@ -2206,7 +1691,7 @@
     (pin "1" (uuid d9b072c2-7aff-422f-bda2-ca4256d46bb0))
     (pin "3" (uuid ec32dcc7-2e29-40cb-a62b-5e048bfb5d6b))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW12") (unit 1)
         )
@@ -2223,7 +1708,7 @@
     (property "Value" "SWITCH" (at 65.151 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 63.5 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 63.5 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 63.5 104.14 0)
@@ -2234,7 +1719,7 @@
     (pin "1" (uuid 33694127-4378-47b3-8062-42208f08c880))
     (pin "3" (uuid abcf303d-7d4f-4867-9967-bd964f7110bf))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW9") (unit 1)
         )
@@ -2251,7 +1736,7 @@
     (property "Value" "SWITCH" (at 146.431 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 144.78 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 144.78 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 144.78 104.14 0)
@@ -2262,7 +1747,7 @@
     (pin "1" (uuid 8886697a-9eca-44cf-9d3f-d16f8eb1b4e2))
     (pin "3" (uuid f2654379-d925-4deb-8bfc-359ffea5565b))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW29") (unit 1)
         )
@@ -2279,7 +1764,7 @@
     (property "Value" "SWITCH" (at 187.071 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 185.42 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 185.42 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 185.42 66.04 0)
@@ -2290,7 +1775,7 @@
     (pin "1" (uuid bce5e343-af1b-4e68-95d3-2f1a4d540d5e))
     (pin "3" (uuid 8b337bb2-c724-4d7a-852d-e88ea6050d16))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW37") (unit 1)
         )
@@ -2307,7 +1792,7 @@
     (property "Value" "SWITCH" (at 248.031 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 246.38 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 246.38 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 246.38 66.04 0)
@@ -2318,7 +1803,7 @@
     (pin "1" (uuid 76247983-bb3a-45fd-b405-30b495867c8f))
     (pin "3" (uuid d9173a4f-1ad8-42df-b46a-5a9bd0d0b757))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW51") (unit 1)
         )
@@ -2335,7 +1820,7 @@
     (property "Value" "SWITCH" (at 65.151 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 63.5 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 63.5 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 63.5 27.94 0)
@@ -2346,7 +1831,7 @@
     (pin "1" (uuid 19a397d4-8632-413c-a3df-570e514a706e))
     (pin "3" (uuid 3b4444c2-1e05-4f48-b5ab-5a08fbe56d44))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW5") (unit 1)
         )
@@ -2363,7 +1848,7 @@
     (property "Value" "SWITCH" (at 207.391 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 205.74 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 205.74 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.74 104.14 0)
@@ -2374,7 +1859,7 @@
     (pin "1" (uuid d68b85ac-1943-4384-bb58-ef497bf9333b))
     (pin "3" (uuid 91a9952d-cc8e-4aea-8410-900238ac5368))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW43") (unit 1)
         )
@@ -2391,14 +1876,14 @@
     (property "Value" "MountingHole" (at 256.54 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 254 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 254 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 254 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H7") (unit 1)
         )
@@ -2415,7 +1900,7 @@
     (property "Value" "SWITCH" (at 227.711 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 226.06 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 226.06 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 226.06 46.99 0)
@@ -2426,7 +1911,7 @@
     (pin "1" (uuid de744b65-99a0-46f2-9d5c-4258455da7ca))
     (pin "3" (uuid 0fe6584a-9483-4e48-83b5-7eed4e016918))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW45") (unit 1)
         )
@@ -2443,7 +1928,7 @@
     (property "Value" "SWITCH" (at 288.671 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 287.02 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 287.02 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 287.02 27.94 0)
@@ -2454,7 +1939,7 @@
     (pin "1" (uuid 6ef3fb9c-0f04-43df-bcb7-9d90d3693eff))
     (pin "3" (uuid 8565fdcd-ee21-45d8-aea6-ac98072f362e))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW59") (unit 1)
         )
@@ -2471,14 +1956,14 @@
     (property "Value" "MountingHole" (at 260.35 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 257.81 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 257.81 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H8") (unit 1)
         )
@@ -2495,7 +1980,7 @@
     (property "Value" "SWITCH" (at 268.351 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 266.7 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 266.7 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 266.7 104.14 0)
@@ -2506,7 +1991,7 @@
     (pin "1" (uuid d8a051e2-c43b-4144-b58c-e1aa3dcfacd0))
     (pin "3" (uuid b9c14e39-2a02-46ac-acfe-31bee375ed61))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW58") (unit 1)
         )
@@ -2523,7 +2008,7 @@
     (property "Value" "SWITCH" (at 268.351 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 266.7 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 266.7 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 266.7 27.94 0)
@@ -2534,7 +2019,7 @@
     (pin "1" (uuid 635fdbbc-9865-499f-af38-6fe7619f401c))
     (pin "3" (uuid dc8b179d-7809-449c-bbd3-a791c15fe7f5))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW54") (unit 1)
         )
@@ -2551,7 +2036,7 @@
     (property "Value" "SWITCH" (at 44.831 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 43.18 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 43.18 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 43.18 104.14 0)
@@ -2562,7 +2047,7 @@
     (pin "1" (uuid 9671aa94-f396-4b63-93fa-9ddab65194ad))
     (pin "3" (uuid 59065d3f-b5d1-4c40-b9b4-8b7278b4e016))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW4") (unit 1)
         )
@@ -2579,7 +2064,7 @@
     (property "Value" "SWITCH" (at 85.471 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 83.82 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 83.82 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 83.82 27.94 0)
@@ -2590,7 +2075,7 @@
     (pin "1" (uuid 8881fa7f-01dd-41c6-9153-3e3f9242080f))
     (pin "3" (uuid 9f35d1d9-8a6a-462f-9143-d9c0ff38734e))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW10") (unit 1)
         )
@@ -2607,7 +2092,7 @@
     (property "Value" "SWITCH" (at 288.671 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 287.02 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 287.02 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 287.02 85.09 0)
@@ -2618,7 +2103,7 @@
     (pin "1" (uuid e668b4af-3ba5-46d8-911a-6358cb8bdf71))
     (pin "3" (uuid 8f97935d-8c80-4358-bae6-80f4cc7bca79))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW62") (unit 1)
         )
@@ -2635,7 +2120,7 @@
     (property "Value" "SWITCH" (at 166.751 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 165.1 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 165.1 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 165.1 66.04 0)
@@ -2646,7 +2131,7 @@
     (pin "1" (uuid c01e8167-3a60-42a8-b258-cc9c16118ddb))
     (pin "3" (uuid 34d81055-43f1-4a9c-a67b-b46f40411fb0))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW32") (unit 1)
         )
@@ -2663,7 +2148,7 @@
     (property "Value" "SWITCH" (at 207.391 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 205.74 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 205.74 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.74 46.99 0)
@@ -2674,7 +2159,7 @@
     (pin "1" (uuid 8eb9f230-f81c-48f7-a75c-648cb1ca6468))
     (pin "3" (uuid f5c0db0e-0275-4ced-a19f-181747ae977e))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW40") (unit 1)
         )
@@ -2691,14 +2176,14 @@
     (property "Value" "MountingHole" (at 264.16 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 261.62 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 261.62 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 261.62 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H9") (unit 1)
         )
@@ -2715,7 +2200,7 @@
     (property "Value" "SWITCH" (at 187.071 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 185.42 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 185.42 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 185.42 27.94 0)
@@ -2726,7 +2211,7 @@
     (pin "1" (uuid b9c7505f-1eba-474b-a4c4-80bbc37adb72))
     (pin "3" (uuid bd5456a9-dd05-47b4-99ec-198ef78a692e))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW35") (unit 1)
         )
@@ -2743,7 +2228,7 @@
     (property "Value" "SWITCH" (at 105.791 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 104.14 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 104.14 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 104.14 85.09 0)
@@ -2754,7 +2239,7 @@
     (pin "1" (uuid 08725ab2-167e-4ea4-a05d-6886e3d60234))
     (pin "3" (uuid 6a9e4a05-f1d7-462f-82ce-aaa8554c0314))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW18") (unit 1)
         )
@@ -2771,7 +2256,7 @@
     (property "Value" "SWITCH" (at 227.711 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 226.06 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 226.06 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 226.06 85.09 0)
@@ -2782,7 +2267,7 @@
     (pin "1" (uuid d5b6f97c-87fe-43c2-b574-3aca33924074))
     (pin "3" (uuid 69d80c9a-0e7e-41ec-abf1-c70958ef39f8))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW47") (unit 1)
         )
@@ -2799,7 +2284,7 @@
     (property "Value" "SWITCH" (at 268.351 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 266.7 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 266.7 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 266.7 66.04 0)
@@ -2810,7 +2295,7 @@
     (pin "1" (uuid 464d5109-87cc-45e9-860a-abd1c1e22325))
     (pin "3" (uuid 234e93be-1c0a-48d0-9df7-7d69d23e2948))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW56") (unit 1)
         )
@@ -2827,7 +2312,7 @@
     (property "Value" "SWITCH" (at 207.391 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 205.74 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 205.74 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.74 85.09 0)
@@ -2838,7 +2323,7 @@
     (pin "1" (uuid 85f044e8-9b1e-4d70-9789-1a2564f4b1e3))
     (pin "3" (uuid 1f5857a8-93d6-4588-99ff-67e26d9382b9))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW42") (unit 1)
         )
@@ -2855,14 +2340,14 @@
     (property "Value" "MountingHole" (at 303.53 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 300.99 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 300.99 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 300.99 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H6") (unit 1)
         )
@@ -2879,7 +2364,7 @@
     (property "Value" "SWITCH" (at 126.111 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 124.46 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 124.46 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 124.46 27.94 0)
@@ -2890,7 +2375,7 @@
     (pin "1" (uuid 0aeaad22-b764-43ed-b9ba-0110dda35bfb))
     (pin "3" (uuid 66ed9c62-830d-4ebe-a72d-be240a7521ac))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW20") (unit 1)
         )
@@ -2907,7 +2392,7 @@
     (property "Value" "SWITCH" (at 126.111 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 124.46 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 124.46 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 124.46 66.04 0)
@@ -2918,7 +2403,7 @@
     (pin "1" (uuid 251401e5-7583-4a84-afcc-e40636f6e4ca))
     (pin "3" (uuid 2dfc2fd1-78e3-44b9-afbc-e729fadc50e0))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW22") (unit 1)
         )
@@ -2935,7 +2420,7 @@
     (property "Value" "SWITCH" (at 288.671 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 287.02 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 287.02 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 287.02 46.99 0)
@@ -2946,7 +2431,7 @@
     (pin "1" (uuid d9bdff48-e287-4d5f-bcb3-be42bcbffb75))
     (pin "3" (uuid 344fb3e6-0ba1-47ef-8e4c-dcf6ff6ab715))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW60") (unit 1)
         )
@@ -2963,7 +2448,7 @@
     (property "Value" "SWITCH" (at 166.751 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 165.1 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 165.1 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 165.1 46.99 0)
@@ -2974,7 +2459,7 @@
     (pin "1" (uuid 82a6acb6-5364-4b9e-89e6-89caa07e0ef7))
     (pin "3" (uuid 1f5c35a9-a038-4725-8808-98857b7bba9f))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW31") (unit 1)
         )
@@ -2991,7 +2476,7 @@
     (property "Value" "SWITCH" (at 44.831 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 43.18 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 43.18 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 43.18 46.99 0)
@@ -3002,7 +2487,7 @@
     (pin "1" (uuid 887a2165-49bf-4913-b103-0f4dd1257307))
     (pin "3" (uuid b51d2d4b-c9c0-4c9e-8c80-7f1a19a33c7a))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW1") (unit 1)
         )
@@ -3019,7 +2504,7 @@
     (property "Value" "SWITCH" (at 288.671 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 287.02 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 287.02 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 287.02 104.14 0)
@@ -3030,7 +2515,7 @@
     (pin "1" (uuid f8ab7a30-0404-4a8d-b0ac-14c58b84f53b))
     (pin "3" (uuid ca96fe5a-26e5-4ff3-982c-84e3624a7e8f))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW63") (unit 1)
         )
@@ -3047,7 +2532,7 @@
     (property "Value" "SWITCH" (at 85.471 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 83.82 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 83.82 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 83.82 46.99 0)
@@ -3058,7 +2543,7 @@
     (pin "1" (uuid 6a248806-8512-4718-a092-b795391dab5c))
     (pin "3" (uuid dfd3511f-b07b-4c1d-ba5a-aafb97053799))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW11") (unit 1)
         )
@@ -3075,7 +2560,7 @@
     (property "Value" "SWITCH" (at 85.471 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 83.82 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 83.82 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 83.82 85.09 0)
@@ -3086,7 +2571,7 @@
     (pin "1" (uuid 6bb0314e-6a61-49a6-84f2-33e4420c61d5))
     (pin "3" (uuid 7167fc5e-acdc-4483-b50e-b17b61009fc0))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW13") (unit 1)
         )
@@ -3103,7 +2588,7 @@
     (property "Value" "SWITCH" (at 105.791 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 104.14 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 104.14 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 104.14 104.14 0)
@@ -3114,7 +2599,7 @@
     (pin "1" (uuid e71dd67f-861a-44db-9e76-5e6ef21cd252))
     (pin "3" (uuid 95ff3f78-71e3-435d-8e79-0994dfa0574a))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW19") (unit 1)
         )
@@ -3131,7 +2616,7 @@
     (property "Value" "SWITCH" (at 248.031 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 246.38 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 246.38 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 246.38 27.94 0)
@@ -3142,7 +2627,7 @@
     (pin "1" (uuid 0d94b982-abb9-4627-84d5-410535d96bd2))
     (pin "3" (uuid a0cd8b4a-3c16-4641-92a9-b1ce6e21f57b))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW49") (unit 1)
         )
@@ -3159,7 +2644,7 @@
     (property "Value" "SWITCH" (at 187.071 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 185.42 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 185.42 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 185.42 85.09 0)
@@ -3170,7 +2655,7 @@
     (pin "1" (uuid b5d0ee2a-fd36-4608-b219-b4c782515cd5))
     (pin "3" (uuid 408bab35-17f9-4ba0-b906-e02ada45fe1f))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW38") (unit 1)
         )
@@ -3187,7 +2672,7 @@
     (property "Value" "SWITCH" (at 166.751 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 165.1 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 165.1 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 165.1 85.09 0)
@@ -3198,7 +2683,7 @@
     (pin "1" (uuid cf7f19ce-25fe-49e3-8af8-9af1d8e9b890))
     (pin "3" (uuid 33976371-4c27-4b45-8c6c-95d371b8a279))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW33") (unit 1)
         )
@@ -3215,7 +2700,7 @@
     (property "Value" "SWITCH" (at 105.791 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 104.14 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 104.14 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 104.14 46.99 0)
@@ -3226,7 +2711,7 @@
     (pin "1" (uuid 3c9902b5-baa1-4ca6-967b-4b948fe701c3))
     (pin "3" (uuid fe7f267a-6b21-490d-8f0b-95f2f92d800d))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW16") (unit 1)
         )
@@ -3243,7 +2728,7 @@
     (property "Value" "SWITCH" (at 146.431 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 144.78 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 144.78 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 144.78 46.99 0)
@@ -3254,7 +2739,7 @@
     (pin "1" (uuid 4a90a8d5-4e10-4c1e-9a3e-48b4fd9dbb82))
     (pin "3" (uuid 9bb57a8a-7950-4c6c-beaf-91024b9d111d))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW26") (unit 1)
         )
@@ -3271,7 +2756,7 @@
     (property "Value" "SWITCH" (at 288.671 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 287.02 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 287.02 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 287.02 66.04 0)
@@ -3282,7 +2767,7 @@
     (pin "1" (uuid 855335cc-ff69-42d9-aa06-192077cf2594))
     (pin "3" (uuid 449c1b8f-96a2-4a49-bf68-3a2715c21a15))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW61") (unit 1)
         )
@@ -3299,7 +2784,7 @@
     (property "Value" "SWITCH" (at 227.711 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 226.06 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 226.06 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 226.06 104.14 0)
@@ -3310,7 +2795,7 @@
     (pin "1" (uuid 51f3c2e9-4d69-48f1-9cdf-ecae2f0f2f06))
     (pin "3" (uuid 164d1335-347e-4dc1-8d03-d75434c66117))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW48") (unit 1)
         )
@@ -3327,7 +2812,7 @@
     (property "Value" "SWITCH" (at 248.031 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 246.38 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 246.38 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 246.38 46.99 0)
@@ -3338,7 +2823,7 @@
     (pin "1" (uuid ef5be4c1-c35f-4503-bb8a-c23b57c6e8e4))
     (pin "3" (uuid 28e9d96a-77db-4ebf-8146-37090589d4ca))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW50") (unit 1)
         )
@@ -3355,7 +2840,7 @@
     (property "Value" "SWITCH" (at 207.391 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 205.74 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 205.74 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 205.74 27.94 0)
@@ -3366,7 +2851,7 @@
     (pin "1" (uuid 52ca95e8-0851-4dd8-af74-cd86cf8069e8))
     (pin "3" (uuid 31d79951-3e2a-4963-9c0d-1751b4bf0840))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW39") (unit 1)
         )
@@ -3383,7 +2868,7 @@
     (property "Value" "SWITCH" (at 44.831 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 43.18 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 43.18 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 43.18 66.04 0)
@@ -3394,7 +2879,7 @@
     (pin "1" (uuid 0cd66580-8aa0-4d73-9720-a2f8ad57c4ea))
     (pin "3" (uuid 376f0124-f443-4358-86b6-ccd2aff7bad5))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW2") (unit 1)
         )
@@ -3411,7 +2896,7 @@
     (property "Value" "SWITCH" (at 126.111 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 124.46 104.14 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 124.46 104.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 124.46 104.14 0)
@@ -3422,7 +2907,7 @@
     (pin "1" (uuid 15b37258-80d1-45a6-b066-5c7d0bc5cc13))
     (pin "3" (uuid 7e9e9a73-358f-4878-a2f6-e3a44055d8f8))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW24") (unit 1)
         )
@@ -3439,14 +2924,14 @@
     (property "Value" "MountingHole" (at 267.97 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 265.43 153.67 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 265.43 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 265.43 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H10") (unit 1)
         )
@@ -3463,7 +2948,7 @@
     (property "Value" "SWITCH" (at 105.791 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 104.14 66.04 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 104.14 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 104.14 66.04 0)
@@ -3474,7 +2959,7 @@
     (pin "1" (uuid 1f95bc9a-5115-4039-b32d-0fab15707841))
     (pin "3" (uuid 0f9a7fe7-3679-44d4-a0cc-02784e22fae3))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW17") (unit 1)
         )
@@ -3491,7 +2976,7 @@
     (property "Value" "SWITCH" (at 126.111 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 124.46 46.99 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 124.46 46.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 124.46 46.99 0)
@@ -3502,7 +2987,7 @@
     (pin "1" (uuid 3c52f66e-f5ed-4774-9b36-7528822b5c89))
     (pin "3" (uuid d7cccea0-a56c-48d1-9d8b-ca4c533056f3))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW21") (unit 1)
         )
@@ -3519,7 +3004,7 @@
     (property "Value" "SWITCH" (at 146.431 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 144.78 27.94 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 144.78 27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 144.78 27.94 0)
@@ -3530,7 +3015,7 @@
     (pin "1" (uuid 2cf21dfa-f883-4655-8a6e-89b24cd73d84))
     (pin "3" (uuid d0ce9fbe-3ab1-472c-aafc-b75c16b26ffa))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW25") (unit 1)
         )
@@ -3547,7 +3032,7 @@
     (property "Value" "SWITCH" (at 65.151 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:kailh_choc_with_diode" (at 63.5 85.09 0)
+    (property "Footprint" "footprints:kailh_choc_plate" (at 63.5 85.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 63.5 85.09 0)
@@ -3558,7 +3043,7 @@
     (pin "1" (uuid 920d26e9-de5f-47da-b3b6-fa2221502bec))
     (pin "3" (uuid 13b7388e-9866-4c35-9cab-dd37036d395f))
     (instances
-      (project "kfs_pcb"
+      (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW8") (unit 1)
         )
