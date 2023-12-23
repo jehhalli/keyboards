@@ -229,6 +229,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 250.19 153.67 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6c17c84d-7774-4622-9ff3-a5ed16cbb559)
+    (property "Reference" "H11" (at 252.73 152.4 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 252.73 154.94 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 250.19 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 250.19 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kfs_bplate"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H11") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 261.62 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82a22c48-adf6-4536-99a7-90a6a260b9bc)
