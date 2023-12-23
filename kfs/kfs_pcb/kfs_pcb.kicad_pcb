@@ -648,7 +648,7 @@
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
     (tstamp 0b0125b4-4038-45d7-81f4-9b9be23584c9)
-    (at 162 42.5)
+    (at 148 24)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (property "Sheetfile" "kfs_pcb.kicad_sch")
@@ -1826,7 +1826,7 @@
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
     (tstamp 36e8602c-5908-4b8a-9feb-b66678c185e1)
-    (at 265.5 102)
+    (at 266 106.5)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (property "Sheetfile" "kfs_pcb.kicad_sch")
@@ -4704,7 +4704,7 @@
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
     (tstamp 752e5178-2c99-4ebf-8428-aeaabb4708fd)
-    (at 22.5 102)
+    (at 22 106.5)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (property "Sheetfile" "kfs_pcb.kicad_sch")
@@ -4898,7 +4898,7 @@
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
     (tstamp 80878564-2c5d-40f4-8422-9cd5f4d06a84)
-    (at 36 25.5)
+    (at 22 24)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (property "Sheetfile" "kfs_pcb.kicad_sch")
@@ -5256,7 +5256,7 @@
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
     (tstamp 8bf3b2ef-9e28-402d-a1cb-907e88c2ce0a)
-    (at 108 42.5)
+    (at 122 24)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (property "Sheetfile" "kfs_pcb.kicad_sch")
@@ -6136,7 +6136,7 @@
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
     (tstamp a514436a-b41f-4689-9b9b-4a368665ed9b)
-    (at 216 76.5)
+    (at 216 59.5)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (property "Sheetfile" "kfs_pcb.kicad_sch")
@@ -11001,7 +11001,7 @@
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
     (tstamp ffbcb4fa-050c-4b6e-88a1-63ac3f38e6e6)
-    (at 252 25.5)
+    (at 266 24)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (property "Sheetfile" "kfs_pcb.kicad_sch")
@@ -11567,11 +11567,12 @@
   (segment (start 239.725 87.05) (end 230.725 96.05) (width 0.25) (layer "B.Cu") (net 85) (tstamp b5f1bfe4-bdf6-4280-8596-b2800b40d630))
   (segment (start 236.5 24.825) (end 153.545 24.825) (width 0.25) (layer "B.Cu") (net 85) (tstamp df764c57-5e10-412d-bd4c-e9fa5456bc28))
   (segment (start 257.725 28.05) (end 257.725 87.05) (width 0.25) (layer "B.Cu") (net 86) (tstamp 0e36e675-4fbc-4899-b1e6-3988ac7ef137))
-  (segment (start 245.65165 28.05) (end 241.97665 24.375) (width 0.25) (layer "B.Cu") (net 86) (tstamp 26024ab5-a74d-42b7-b1d3-9781e2965c36))
+  (segment (start 257.725 28.05) (end 245.65165 28.05) (width 0.25) (layer "B.Cu") (net 86) (tstamp 16df6ccf-3f97-4363-a47b-7beaf48928e7))
   (segment (start 257.725 87.05) (end 248.725 96.05) (width 0.25) (layer "B.Cu") (net 86) (tstamp 49c7cada-8002-426e-a0f5-0cdcca5f21f8))
-  (segment (start 257.725 28.05) (end 245.65165 28.05) (width 0.25) (layer "B.Cu") (net 86) (tstamp 99f61238-05df-47a0-878b-2de191d237a5))
-  (segment (start 146.375 24.375) (end 142.62 28.13) (width 0.25) (layer "B.Cu") (net 86) (tstamp cbd8199e-b98c-4a96-bbde-d1c4a43fa6d8))
-  (segment (start 241.97665 24.375) (end 146.375 24.375) (width 0.25) (layer "B.Cu") (net 86) (tstamp ce44b41d-5eed-463b-9161-f2008d656354))
+  (segment (start 151.625 24.375) (end 147.87 28.13) (width 0.25) (layer "B.Cu") (net 86) (tstamp 56c82dbb-ca91-433c-8d9e-00d1c2a27362))
+  (segment (start 241.97665 24.375) (end 151.625 24.375) (width 0.25) (layer "B.Cu") (net 86) (tstamp 71e05929-20d9-4cd8-b41c-e8e4e45d2b5f))
+  (segment (start 147.87 28.13) (end 142.62 28.13) (width 0.25) (layer "B.Cu") (net 86) (tstamp b8af9dec-72bd-4d7e-8013-243c095efccb))
+  (segment (start 245.65165 28.05) (end 241.97665 24.375) (width 0.25) (layer "B.Cu") (net 86) (tstamp cecebbf5-6016-4e0d-9e70-19a25cdb2ace))
 
   (zone (net 3) (net_name "GND") (layer "F.Cu") (tstamp abfdb2d2-aa1a-47ba-8b27-035d1285258a) (hatch edge 0.5)
     (connect_pads (clearance 0.508))

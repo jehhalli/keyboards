@@ -211,7 +211,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (layer "F.Cu")
     (tstamp 0b0125b4-4038-45d7-81f4-9b9be23584c9)
-    (at 162 42.5)
+    (at 148 24)
     (descr "Mounting Hole 2.2mm, M2, ISO7380")
     (tags "mounting hole 2.2mm m2 iso7380")
     (property "Sheetfile" "kfs_tplate.kicad_sch")
@@ -570,7 +570,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (layer "F.Cu")
     (tstamp 36e8602c-5908-4b8a-9feb-b66678c185e1)
-    (at 265.5 102)
+    (at 266 106.5)
     (descr "Mounting Hole 2.2mm, M2, ISO7380")
     (tags "mounting hole 2.2mm m2 iso7380")
     (property "Sheetfile" "kfs_tplate.kicad_sch")
@@ -1459,7 +1459,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (layer "F.Cu")
     (tstamp 752e5178-2c99-4ebf-8428-aeaabb4708fd)
-    (at 22.5 102)
+    (at 22 106.5)
     (descr "Mounting Hole 2.2mm, M2, ISO7380")
     (tags "mounting hole 2.2mm m2 iso7380")
     (property "Sheetfile" "kfs_tplate.kicad_sch")
@@ -1536,7 +1536,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (layer "F.Cu")
     (tstamp 80878564-2c5d-40f4-8422-9cd5f4d06a84)
-    (at 36 25.5)
+    (at 22 24)
     (descr "Mounting Hole 2.2mm, M2, ISO7380")
     (tags "mounting hole 2.2mm m2 iso7380")
     (property "Sheetfile" "kfs_tplate.kicad_sch")
@@ -1660,7 +1660,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (layer "F.Cu")
     (tstamp 8bf3b2ef-9e28-402d-a1cb-907e88c2ce0a)
-    (at 108 42.5)
+    (at 122 24)
     (descr "Mounting Hole 2.2mm, M2, ISO7380")
     (tags "mounting hole 2.2mm m2 iso7380")
     (property "Sheetfile" "kfs_tplate.kicad_sch")
@@ -1955,7 +1955,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (layer "F.Cu")
     (tstamp a514436a-b41f-4689-9b9b-4a368665ed9b)
-    (at 216 76.5)
+    (at 216 59.5)
     (descr "Mounting Hole 2.2mm, M2, ISO7380")
     (tags "mounting hole 2.2mm m2 iso7380")
     (property "Sheetfile" "kfs_tplate.kicad_sch")
@@ -3348,7 +3348,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (layer "F.Cu")
     (tstamp ffbcb4fa-050c-4b6e-88a1-63ac3f38e6e6)
-    (at 252 25.5)
+    (at 266 24)
     (descr "Mounting Hole 2.2mm, M2, ISO7380")
     (tags "mounting hole 2.2mm m2 iso7380")
     (property "Sheetfile" "kfs_tplate.kicad_sch")
