@@ -157,30 +157,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 255.27 140.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 61809118-0be7-47ea-9b7b-e5a8707c9f06)
-    (property "Reference" "H1" (at 257.81 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 257.81 142.24 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_8.4mm_M8" (at 255.27 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 255.27 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "kfs_bplate"
-        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Mechanical:MountingHole") (at 261.62 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82a22c48-adf6-4536-99a7-90a6a260b9bc)
@@ -224,6 +200,30 @@
       (project "kfs_bplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 261.62 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bef50265-50c0-45f9-ba75-fb4a79bf246f)
+    (property "Reference" "H7" (at 264.16 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 264.16 158.75 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 261.62 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 261.62 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kfs_bplate"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H7") (unit 1)
         )
       )
     )
