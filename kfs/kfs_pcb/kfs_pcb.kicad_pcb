@@ -4602,7 +4602,7 @@
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
     (tstamp 6278ff15-c76e-4df3-bf0a-a24e45214936)
-    (at 158.875 83.1)
+    (at 158.875 76.6)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (property "Sheetfile" "kfs_pcb.kicad_sch")
@@ -5318,7 +5318,7 @@
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
     (tstamp 8d0d7357-cf58-468a-83f7-16fd1261385b)
-    (at 131.875 83.1)
+    (at 131.875 76.6)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (property "Sheetfile" "kfs_pcb.kicad_sch")
