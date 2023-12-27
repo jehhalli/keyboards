@@ -1291,6 +1291,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 261.62 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1df352cf-f62a-4aac-8640-547833b1ce59)
+    (property "Reference" "H1" (at 264.16 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 264.16 158.75 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 261.62 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 261.62 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kfs_tplate"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 226.06 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ea43ad3-68ac-418e-bfb7-1955249d2c17)
@@ -1394,6 +1418,30 @@
       (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 265.43 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 28f1f51f-6789-4d1d-92d1-6074327d6109)
+    (property "Reference" "H7" (at 267.97 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 267.97 158.75 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 265.43 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 265.43 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kfs_tplate"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H7") (unit 1)
         )
       )
     )
@@ -1666,6 +1714,30 @@
       (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "H5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 269.24 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4deaf9cc-8932-48bf-8e1a-3fc965e0ed3c)
+    (property "Reference" "H8" (at 271.78 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 271.78 158.75 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 269.24 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 269.24 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kfs_tplate"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H8") (unit 1)
         )
       )
     )
@@ -2503,30 +2575,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 262.89 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b3d90b82-58a9-4716-901e-b29cc0d5e02c)
-    (property "Reference" "H1" (at 265.43 156.21 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 265.43 158.75 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 262.89 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 262.89 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "kfs_tplate"
-        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "symbols:SWITCH_WITH_DIODE") (at 83.82 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6c4f2c9-ae6e-45b2-9eca-1afd9ba8ade7)
@@ -2830,6 +2878,30 @@
       (project "kfs_tplate"
         (path "/97127b28-60f4-45ff-835e-dccfbc833331"
           (reference "SW39") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 273.05 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e1b68da7-52f5-4b3b-9777-2ac59ae61526)
+    (property "Reference" "H11" (at 275.59 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 275.59 158.75 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 273.05 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 273.05 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kfs_tplate"
+        (path "/97127b28-60f4-45ff-835e-dccfbc833331"
+          (reference "H11") (unit 1)
         )
       )
     )
