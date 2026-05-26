@@ -879,7 +879,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

@@ -1,0 +1,161 @@
+(footprint "JL Logo"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "76403576-3083-4174-b36c-0cb5a223ff43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JL Logo"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51574cbb-ed18-4fee-855d-fd20d3cd1250")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80b815ae-56d1-41ff-95a7-4d91655ccd48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbf00364-1492-4d23-8fcd-7370baab04b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5 -1)
+		(end -1 -1)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc5a4f20-a815-46ca-b59f-a43f9bc53b27")
+	)
+	(fp_line
+		(start -5 1)
+		(end 5 1)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2b239fa-ab59-4017-8596-d8c14c562523")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 -8)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f5c330f-614f-40cd-97e8-5b79bb6c2edb")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 -8)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a8cd0ac-f31d-44a6-b2e2-5cbc4d7c23ca")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 5 -1)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11b87756-9c09-45fa-b622-c28fd83eb4cc")
+	)
+	(fp_line
+		(start -5 -1)
+		(end -1 -1)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f630d24e-659f-4485-b35f-65378f0456d9")
+	)
+	(fp_line
+		(start -5 1)
+		(end 5 1)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "1e295add-04a6-4115-8614-4f83790feb47")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 -8)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "323b46dd-ebdf-47a9-a270-b32bffaf3fb3")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 -8)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "62c5a85c-4d65-43da-8ac6-0c30f770eaa3")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 5 -1)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "80a9eb6b-56e7-4f89-b71d-e76306f181e5")
+	)
+	(embedded_fonts no)
+)
