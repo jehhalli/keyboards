@@ -134,16 +134,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43b65eae-b884-4b59-9f3a-6ee7294a6d3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/a821a260-f467-4083-99ed-6a693a92de7b")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -239,12 +245,6 @@
 		(path "/abb4de8c-d51e-479b-94ed-8b41fa56b70c")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -682,12 +682,6 @@
 		(path "/1b346c80-a64e-4098-bc4f-9885a7f7a8a1")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1125,12 +1119,6 @@
 		(path "/9d0ba536-6a7a-47d4-a9c6-947e8e37d684")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1568,12 +1556,6 @@
 		(path "/e13042e8-6bbe-42da-8ecd-92d4fd0055a7")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2011,12 +1993,6 @@
 		(path "/68eb3c85-eaf5-49da-b137-de90c7b3de5d")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2454,12 +2430,6 @@
 		(path "/7afdd540-c76e-4f22-9186-7147e53a981f")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2897,12 +2867,6 @@
 		(path "/e5bc6b5e-a772-4821-8c26-8bace5c374d6")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3340,12 +3304,6 @@
 		(path "/9c3434e6-4383-435b-8d95-cc53761d19af")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3783,12 +3741,6 @@
 		(path "/8de20ace-13ad-47f7-af16-1d8213218cc6")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4225,16 +4177,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "56c27c99-aa89-4269-9c7d-b26131fbecc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/3e9fbff4-7258-4e18-96d0-7551867d5de8")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4330,12 +4288,6 @@
 		(path "/7bb62a57-539a-4eb5-bba8-f5e75b8ab8a6")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4772,16 +4724,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2df9aab0-3a77-406b-afaf-cdb7c287ce86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/bb3bb164-d8f5-4949-b418-3ab4c3f0a667")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4877,12 +4835,6 @@
 		(path "/855d432f-af7d-4de3-aa63-3e4d0b469d7f")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5320,12 +5272,6 @@
 		(path "/95ec3a41-6b4b-4f92-9fb4-f451a84b9228")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5764,12 +5710,6 @@
 		(path "/cab22cd0-c0a0-40a5-86ac-74e9aa7f5a98")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5859,12 +5799,6 @@
 		(path "/b7304c3f-a607-478f-a61f-deee5adffe7c")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6302,12 +6236,6 @@
 		(path "/f4aa8290-3cac-4661-a80a-8bcefb4689e8")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6745,12 +6673,6 @@
 		(path "/4d0715a5-94d5-4065-b134-616de1113cd3")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7188,12 +7110,6 @@
 		(path "/0c5f5bd5-beca-411e-a7f2-94d2feabc93b")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7631,12 +7547,6 @@
 		(path "/834f5eea-7f0d-4369-82ee-ae107c88e5ca")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8074,12 +7984,6 @@
 		(path "/b433edc9-f373-44ba-8364-cd8237cb6c60")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8517,12 +8421,6 @@
 		(path "/53a24d3e-dd3d-4f03-bba5-f1e84f6044fe")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8960,12 +8858,6 @@
 		(path "/0582e19f-c033-4309-bb2b-9adec19de313")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9403,12 +9295,6 @@
 		(path "/4052105d-1931-401a-b6b6-fb122f4b5462")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9846,12 +9732,6 @@
 		(path "/a3b0a01e-cafc-47fb-a5ba-ee1664f13bbf")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10289,12 +10169,6 @@
 		(path "/df20cea0-948d-4299-b552-abf98f412fb5")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10732,12 +10606,6 @@
 		(path "/2d293a1b-4137-4b36-a554-847bdc68085f")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11175,12 +11043,6 @@
 		(path "/c2b7366c-964f-444f-ac06-c09d8c6a6357")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11618,12 +11480,6 @@
 		(path "/d7ddef3c-ee1e-4636-96b6-f24eed208aaf")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12061,12 +11917,6 @@
 		(path "/a19c7dd0-2b30-44e4-b18e-85cc8b10160d")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12504,12 +12354,6 @@
 		(path "/b1a20611-1cf7-487b-8c4d-55d51204fbe9")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12946,16 +12790,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f096df37-6a1b-4545-a79c-9270334af17e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/8fb16d28-227c-45e1-a000-e65984ebd88d")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13051,12 +12901,6 @@
 		(path "/a18bf6ca-833b-4cc3-9a1d-d8cf1851de35")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13494,12 +13338,6 @@
 		(path "/492ffa9f-69a1-4f09-8575-6e2280a322ae")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13937,12 +13775,6 @@
 		(path "/aad5129d-b347-4acf-9d9a-59591333c520")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14380,12 +14212,6 @@
 		(path "/58239ccb-1db0-4a9a-87eb-deb804705c64")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14823,12 +14649,6 @@
 		(path "/4ea645c1-bba8-4a09-93ee-571b00499c13")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15266,12 +15086,6 @@
 		(path "/46801770-ae71-4c26-b8e8-8a8ed5b6ae11")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15709,12 +15523,6 @@
 		(path "/48d9c953-4660-4cc6-a09f-c4760be77626")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16152,12 +15960,6 @@
 		(path "/3e978864-b659-4539-9cee-3d1f4ecff4c2")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16598,14 +16400,6 @@
 		(path "/00000000-0000-0000-0000-000058242ad2")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "24" "23" "22"
-					"21" "20" "19" "18" "17" "16" "15" "14" "13"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16659,7 +16453,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(U0-TX-Pad1)")
 			(pinfunction "TX_1")
@@ -16672,7 +16466,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/ROW1")
@@ -16686,7 +16480,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/GND")
@@ -16700,7 +16494,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/GND")
@@ -16714,7 +16508,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/ROW2")
@@ -16728,7 +16522,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/ROW3")
@@ -16742,7 +16536,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL5")
@@ -16756,7 +16550,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL4")
@@ -16770,7 +16564,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL3")
@@ -16784,7 +16578,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL2")
@@ -16798,7 +16592,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL1")
@@ -16812,7 +16606,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL0")
@@ -16826,7 +16620,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL11")
@@ -16840,7 +16634,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL10")
@@ -16854,7 +16648,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL9")
@@ -16868,7 +16662,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL8")
@@ -16882,7 +16676,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL7")
@@ -16896,7 +16690,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/COL6")
@@ -16910,7 +16704,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/ROW4")
@@ -16924,7 +16718,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/ROW0")
@@ -16938,7 +16732,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U0-VCC-Pad21)")
@@ -16952,7 +16746,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/RST")
@@ -16966,7 +16760,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "/GND")
@@ -16980,7 +16774,7 @@
 			(drill 0.8
 				(offset -0.85 0)
 			)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U0-RAW-Pad24)")
@@ -17041,16 +16835,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a22cb12e-cd04-4f59-a787-da2ae52976a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/56dfeb3b-890a-4dca-9b64-0b95529759e0")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -17146,12 +16946,6 @@
 		(path "/c4eab75d-2359-4738-b495-80fd730a41f7")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17589,12 +17383,6 @@
 		(path "/6dde2347-a057-479e-9b6b-14803b718d36")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18032,12 +17820,6 @@
 		(path "/209050a4-5f00-48da-8ed9-91f91564a1e5")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18475,12 +18257,6 @@
 		(path "/250349e1-835d-43ca-86b5-3e4106fdf7d7")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18918,12 +18694,6 @@
 		(path "/20af0516-5eea-44c1-a857-1cd972acfa27")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19361,12 +19131,6 @@
 		(path "/2ab9c819-a62c-41fe-8ad2-d5b352a3f221")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19804,12 +19568,6 @@
 		(path "/24097375-9bb9-4f69-ba0a-640c5f0ba4d3")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20247,12 +20005,6 @@
 		(path "/dde87870-38e1-489a-9233-53875609d284")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20690,12 +20442,6 @@
 		(path "/77e82729-cad3-4387-bf55-832c98d1aff4")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21133,12 +20879,6 @@
 		(path "/f33a8c7f-c502-4530-85dd-9296ab3c20ff")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21576,12 +21316,6 @@
 		(path "/bc7f265c-8825-471e-a1d2-e6ccb0bf47fb")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22018,16 +21752,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fdb514d2-7f08-4176-a026-1d082457db35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/0e4e2410-a90c-47d8-9d0f-37898a0bd1f3")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -22123,12 +21863,6 @@
 		(path "/fa6168ae-4c28-43eb-b7b8-badb04181547")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22566,12 +22300,6 @@
 		(path "/b53401cb-7e12-446a-a06b-5112c64bb3ac")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23009,12 +22737,6 @@
 		(path "/0865b1bb-6192-40c4-9035-599f63b26fbe")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23452,12 +23174,6 @@
 		(path "/15173f5b-97ce-43b7-88e7-0f21bf44633e")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23895,12 +23611,6 @@
 		(path "/1574294e-08b5-4602-be3c-3e62107b19b8")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24338,12 +24048,6 @@
 		(path "/f192b2ce-00f8-457c-ab33-f149a0ed64d0")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24781,12 +24485,6 @@
 		(path "/489f8c29-dc3f-4f4a-b6be-fcc58e403354")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25223,16 +24921,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "873894f0-de52-494c-af05-f3cdae6197e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/5e1d0333-7b2c-4c04-989f-eb9850e8d73f")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -25327,16 +25031,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d9e2e727-2992-4d18-b81a-406484902205")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/8cc04bba-4645-4385-8cc6-a9338110286f")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -25432,12 +25142,6 @@
 		(path "/0c097d45-0579-4229-a136-50f338850085")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25875,12 +25579,6 @@
 		(path "/06c4caab-500f-4460-81f9-9c2ea682dc34")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26317,16 +26015,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "97603c75-9ab1-4f33-ad82-9eb5caaac607")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/512f1ff6-acb9-4c8f-a8a1-38bb033e657a")
 		(sheetname "/")
 		(sheetfile "olk_pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
