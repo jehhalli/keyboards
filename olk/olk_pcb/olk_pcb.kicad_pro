@@ -1022,7 +1022,7 @@
         "uuid": "97127b28-60f4-45ff-835e-dccfbc833331"
       }
     ],
-    "used_designators": "SW1-62,SW,H1-8,H,RST,U",
+    "used_designators": "U,SW1-55,SW,RST,PWR,J,H1-8,H,#PWR",
     "variants": []
   },
   "sheets": [

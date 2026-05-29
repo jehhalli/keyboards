@@ -5,6 +5,189 @@
 	(uuid "97127b28-60f4-45ff-835e-dccfbc833331")
 	(paper "USLedger")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -10609,6 +10792,187 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -10749,6 +11113,118 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13271,6 +13747,16 @@
 		)
 		(uuid "3a159e42-d528-4122-8ffc-bdfb180fec36")
 	)
+	(label "RAW"
+		(at 173.99 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44c61b17-8b54-4f47-894f-76b8b6ff25d2")
+	)
 	(label "COL5"
 		(at 101.6 205.74 180)
 		(effects
@@ -13290,6 +13776,16 @@
 			(justify right bottom)
 		)
 		(uuid "4c66641d-7efd-4e5e-9ca9-2e00aa3ddd6c")
+	)
+	(label "B+"
+		(at 194.31 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cc73d8b-8b83-4c0d-9ff7-aba4132a8c18")
 	)
 	(label "GND"
 		(at 177.8 224.79 0)
@@ -13321,6 +13817,16 @@
 		)
 		(uuid "625c9486-6af6-4fd0-abff-460fb112f9c6")
 	)
+	(label "B+"
+		(at 163.83 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "671c8364-f1c5-4998-9b95-adc5dcccf331")
+	)
 	(label "RST"
 		(at 137.16 195.58 0)
 		(effects
@@ -13350,6 +13856,16 @@
 			(justify left bottom)
 		)
 		(uuid "746c1f05-783a-4cb5-8049-c0a22a2ffebc")
+	)
+	(label "RAW"
+		(at 137.16 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "762e533f-7620-46be-831b-d02675ebe2bc")
 	)
 	(label "COL11"
 		(at 375.92 116.84 0)
@@ -13771,6 +14287,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 168.91 195.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06188486-46e3-4ceb-aadf-7a2d7568b509")
+		(property "Reference" "PWR0"
+			(at 168.91 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER"
+			(at 168.91 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:power_switch_1"
+			(at 168.91 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08fc26c7-3522-412c-81fd-3737056fe102")
+		)
+		(pin "2"
+			(uuid "9bb918ee-4038-463b-9a43-6fbfd0d75aaf")
+		)
+		(pin "3"
+			(uuid "60bf4abb-3eac-4d86-9514-c80a57d5fc2c")
+		)
+		(instances
+			(project "olk_pcb"
+				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
+					(reference "PWR0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SWITCH_WITH_DIODE_39")
 		(lib_id "symbols:SWITCH_WITH_DIODE")
 		(at 91.44 77.47 0)
@@ -14116,7 +14714,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 123.19 254 0)
+		(at 113.03 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14126,8 +14724,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e4e2410-a90c-47d8-9d0f-37898a0bd1f3")
-		(property "Reference" "H5"
-			(at 125.73 252.73 0)
+		(property "Reference" "H2"
+			(at 115.57 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14138,7 +14736,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 125.73 255.27 0)
+			(at 115.57 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14149,7 +14747,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 123.19 254 0)
+			(at 113.03 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14160,7 +14758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 254 0)
+			(at 113.03 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14171,7 +14769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 254 0)
+			(at 113.03 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14183,7 +14781,7 @@
 		(instances
 			(project "olk_pcb"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H5")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -15050,7 +15648,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 130.81 250.19 0)
+		(at 128.27 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15060,8 +15658,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e9fbff4-7258-4e18-96d0-7551867d5de8")
-		(property "Reference" "H3"
-			(at 133.35 248.92 0)
+		(property "Reference" "H6"
+			(at 130.81 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15072,7 +15670,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 133.35 251.46 0)
+			(at 130.81 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15083,7 +15681,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 130.81 250.19 0)
+			(at 128.27 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15094,7 +15692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 250.19 0)
+			(at 128.27 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15105,7 +15703,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 250.19 0)
+			(at 128.27 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15117,7 +15715,7 @@
 		(instances
 			(project "olk_pcb"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H3")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -15726,8 +16324,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 119.38 250.19 0)
+		(lib_id "power:GND")
+		(at 194.31 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15736,31 +16334,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "512f1ff6-acb9-4c8f-a8a1-38bb033e657a")
-		(property "Reference" "H0"
-			(at 121.92 248.92 0)
+		(uuid "4f0f5075-6bfd-472f-a5d3-5f4410e132e4")
+		(property "Reference" "#PWR00"
+			(at 194.31 204.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 121.92 251.46 0)
+		(property "Value" "GND"
+			(at 194.31 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 119.38 250.19 0)
+		(property "Footprint" ""
+			(at 194.31 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15771,7 +16368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 250.19 0)
+			(at 194.31 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15782,7 +16379,85 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 250.19 0)
+			(at 194.31 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ecebdfd-625d-4df2-8116-922816bcb763")
+		)
+		(instances
+			(project "olk_pcb"
+				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
+					(reference "#PWR00")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 105.41 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "512f1ff6-acb9-4c8f-a8a1-38bb033e657a")
+		(property "Reference" "H0"
+			(at 107.95 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 107.95 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 105.41 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15888,7 +16563,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 119.38 257.81 0)
+		(at 132.08 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15898,8 +16573,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56dfeb3b-890a-4dca-9b64-0b95529759e0")
-		(property "Reference" "H8"
-			(at 121.92 256.54 0)
+		(property "Reference" "H7"
+			(at 134.62 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15910,7 +16585,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 121.92 259.08 0)
+			(at 134.62 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15921,7 +16596,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 119.38 257.81 0)
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15932,7 +16607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 257.81 0)
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15943,7 +16618,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 257.81 0)
+			(at 132.08 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15955,7 +16630,7 @@
 		(instances
 			(project "olk_pcb"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H8")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -16049,7 +16724,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 130.81 254 0)
+		(at 124.46 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16059,8 +16734,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e1d0333-7b2c-4c04-989f-eb9850e8d73f")
-		(property "Reference" "H7"
-			(at 133.35 252.73 0)
+		(property "Reference" "H5"
+			(at 127 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16071,7 +16746,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 133.35 255.27 0)
+			(at 127 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16082,7 +16757,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 130.81 254 0)
+			(at 124.46 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16093,7 +16768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 254 0)
+			(at 124.46 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16104,7 +16779,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 254 0)
+			(at 124.46 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16116,7 +16791,7 @@
 		(instances
 			(project "olk_pcb"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -16726,7 +17401,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 127 254 0)
+		(at 135.89 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16736,8 +17411,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc04bba-4645-4385-8cc6-a9338110286f")
-		(property "Reference" "H6"
-			(at 129.54 252.73 0)
+		(property "Reference" "H8"
+			(at 138.43 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16748,7 +17423,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 129.54 255.27 0)
+			(at 138.43 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16759,7 +17434,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 127 254 0)
+			(at 135.89 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16770,7 +17445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 254 0)
+			(at 135.89 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16781,7 +17456,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 254 0)
+			(at 135.89 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16793,7 +17468,7 @@
 		(instances
 			(project "olk_pcb"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H6")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -16887,7 +17562,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 127 250.19 0)
+		(at 109.22 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16897,8 +17572,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb16d28-227c-45e1-a000-e65984ebd88d")
-		(property "Reference" "H2"
-			(at 129.54 248.92 0)
+		(property "Reference" "H1"
+			(at 111.76 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16909,7 +17584,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 129.54 251.46 0)
+			(at 111.76 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16920,7 +17595,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 127 250.19 0)
+			(at 109.22 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16931,7 +17606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 250.19 0)
+			(at 109.22 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16942,7 +17617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 250.19 0)
+			(at 109.22 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16954,7 +17629,7 @@
 		(instances
 			(project "olk_pcb"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -17478,7 +18153,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 119.38 254 0)
+		(at 116.84 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17488,8 +18163,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a821a260-f467-4083-99ed-6a693a92de7b")
-		(property "Reference" "H4"
-			(at 121.92 252.73 0)
+		(property "Reference" "H3"
+			(at 119.38 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17500,7 +18175,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 121.92 255.27 0)
+			(at 119.38 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17511,7 +18186,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 119.38 254 0)
+			(at 116.84 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17522,7 +18197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 254 0)
+			(at 116.84 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17533,7 +18208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 254 0)
+			(at 116.84 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17545,7 +18220,7 @@
 		(instances
 			(project "olk_pcb"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -18069,7 +18744,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 123.19 250.19 0)
+		(at 120.65 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18079,8 +18754,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb3bb164-d8f5-4949-b418-3ab4c3f0a667")
-		(property "Reference" "H1"
-			(at 125.73 248.92 0)
+		(property "Reference" "H4"
+			(at 123.19 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18091,7 +18766,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 125.73 251.46 0)
+			(at 123.19 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18102,7 +18777,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 123.19 250.19 0)
+			(at 120.65 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18113,7 +18788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 250.19 0)
+			(at 120.65 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18124,7 +18799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 250.19 0)
+			(at 120.65 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18136,7 +18811,7 @@
 		(instances
 			(project "olk_pcb"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -19248,6 +19923,87 @@
 			(project "olk_pcb"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 199.39 198.12 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc144055-c550-4c6c-923c-57da896bd013")
+		(property "Reference" "J0"
+			(at 200.66 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 200.66 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 199.39 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbac6418-c239-4c61-9df4-5deb7788c17d")
+		)
+		(pin "2"
+			(uuid "c8e30b1d-1349-4fb5-a6d0-a84d25c5c50d")
+		)
+		(instances
+			(project "olk_pcb"
+				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
+					(reference "J0")
 					(unit 1)
 				)
 			)

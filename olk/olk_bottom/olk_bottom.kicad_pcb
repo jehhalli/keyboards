@@ -1189,7 +1189,7 @@
 		(center 101.6 79.375)
 		(end 107.6 79.375)
 		(stroke
-			(width 0.2)
+			(width 0.5)
 			(type solid)
 		)
 		(fill no)
@@ -1200,7 +1200,7 @@
 		(center 101.6 135.575)
 		(end 107.6 135.575)
 		(stroke
-			(width 0.2)
+			(width 0.5)
 			(type solid)
 		)
 		(fill no)
@@ -1211,7 +1211,7 @@
 		(center 134.9375 154.625)
 		(end 140.9375 154.625)
 		(stroke
-			(width 0.2)
+			(width 0.5)
 			(type solid)
 		)
 		(fill no)
@@ -1222,7 +1222,7 @@
 		(center 220.1875 79.375)
 		(end 226.1875 79.375)
 		(stroke
-			(width 0.2)
+			(width 0.5)
 			(type solid)
 		)
 		(fill no)
@@ -1233,7 +1233,7 @@
 		(center 220.1875 154.625)
 		(end 226.1875 154.625)
 		(stroke
-			(width 0.2)
+			(width 0.5)
 			(type solid)
 		)
 		(fill no)
@@ -1244,7 +1244,7 @@
 		(center 305.4375 154.625)
 		(end 311.4375 154.625)
 		(stroke
-			(width 0.2)
+			(width 0.5)
 			(type solid)
 		)
 		(fill no)
@@ -1255,7 +1255,7 @@
 		(center 338.775 79.375)
 		(end 344.775 79.375)
 		(stroke
-			(width 0.2)
+			(width 0.5)
 			(type solid)
 		)
 		(fill no)
@@ -1266,7 +1266,7 @@
 		(center 338.775 135.575)
 		(end 344.775 135.575)
 		(stroke
-			(width 0.2)
+			(width 0.5)
 			(type solid)
 		)
 		(fill no)
@@ -1440,6 +1440,32 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "974ea045-f13c-4f1a-aa64-b30ef14fe90d")
+	)
+	(gr_text "0"
+		(at 215.425 161.625 0)
+		(layer "B.SilkS")
+		(uuid "63041ae6-f2f5-4af7-9520-55c614999b91")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "1"
+		(at 224.95 161.625 0)
+		(layer "B.SilkS")
+		(uuid "ca8bbdc4-facd-4a81-8297-fa156456471a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify mirror)
+		)
 	)
 	(embedded_fonts no)
 )
