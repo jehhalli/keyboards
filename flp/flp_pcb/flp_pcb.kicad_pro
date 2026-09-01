@@ -505,7 +505,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "jlfklp_pcb.kicad_pro",
+    "filename": "flp_pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1017,8 +1017,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "jlfklp_pcb.kicad_sch",
-        "name": "jlfklp_pcb",
+        "filename": "flp_pcb.kicad_sch",
+        "name": "flp_pcb",
         "uuid": "97127b28-60f4-45ff-835e-dccfbc833331"
       }
     ],
