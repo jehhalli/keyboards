@@ -486,6 +486,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -505,7 +506,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "olk_top.kicad_pro",
+    "filename": "jlol.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1017,18 +1018,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "olk_top.kicad_sch",
-        "name": "olk_top",
+        "filename": "jlol.kicad_sch",
+        "name": "jlol",
         "uuid": "97127b28-60f4-45ff-835e-dccfbc833331"
       }
     ],
-    "used_designators": "SW1-62,SW,H1-8,H,RST,U",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "97127b28-60f4-45ff-835e-dccfbc833331",
-      "olk_top"
+      "jlol"
     ]
   ],
   "text_variables": {},

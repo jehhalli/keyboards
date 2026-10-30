@@ -5,6 +5,189 @@
 	(uuid "97127b28-60f4-45ff-835e-dccfbc833331")
 	(paper "USLedger")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -10609,6 +10792,959 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbols:ProMicro"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U1"
+				(at 0 24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ProMicro"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "ProMicro_v2"
+				(at 2.54 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ProMicro_0_1"
+				(rectangle
+					(start -12.7 21.59)
+					(end 12.7 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ProMicro_1_1"
+				(pin bidirectional line
+					(at -17.78 19.05 0)
+					(length 5.08)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 16.51 0)
+					(length 5.08)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 13.97 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 11.43 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 8.89 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 6.35 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 3.81 0)
+					(length 5.08)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 1.27 0)
+					(length 5.08)
+					(name "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -1.27 0)
+					(length 5.08)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -3.81 0)
+					(length 5.08)
+					(name "E6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -6.35 0)
+					(length 5.08)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -8.89 0)
+					(length 5.08)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -8.89 180)
+					(length 5.08)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -6.35 180)
+					(length 5.08)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -3.81 180)
+					(length 5.08)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -1.27 180)
+					(length 5.08)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 1.27 180)
+					(length 5.08)
+					(name "F7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 3.81 180)
+					(length 5.08)
+					(name "F6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 6.35 180)
+					(length 5.08)
+					(name "F5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 8.89 180)
+					(length 5.08)
+					(name "F4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 11.43 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 13.97 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 16.51 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 19.05 180)
+					(length 5.08)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:SWITCH_WITH_DIODE"
 			(pin_numbers
 				(hide yes)
@@ -12481,6 +13617,36 @@
 		)
 		(uuid "ff4c87a4-5621-4f45-a7cc-70426c8b2d7c")
 	)
+	(label "COL3"
+		(at 137.16 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b060d08-bb8e-4ed4-ac2a-4f5eedae3404")
+	)
+	(label "GND"
+		(at 101.6 195.58 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c6c853e-2950-457b-ad33-a7529a6e40bc")
+	)
+	(label "COL0"
+		(at 137.16 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ccdfc17-fb37-43b1-966b-f1ee0d419f95")
+	)
 	(label "COL6"
 		(at 236.22 115.57 0)
 		(effects
@@ -12490,6 +13656,46 @@
 			(justify left bottom)
 		)
 		(uuid "11bf8430-ae43-4e13-8372-6c90fb5dce81")
+	)
+	(label "ROW3"
+		(at 137.16 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2025347f-0a8b-4ad7-a8ec-ff00c5e86dcb")
+	)
+	(label "RST"
+		(at 167.64 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21d8cfcb-e4aa-4f95-bbfa-0f21fa068691")
+	)
+	(label "COL1"
+		(at 137.16 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2254ee5c-2a9a-4e00-83c7-083b566b2cea")
+	)
+	(label "GND"
+		(at 101.6 198.12 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "269f481b-b91d-439d-8004-a34cc082fe61")
 	)
 	(label "ROW4"
 		(at 402.59 113.03 0)
@@ -12511,6 +13717,86 @@
 		)
 		(uuid "2e62052a-d7d3-4c0b-b2d4-58e3e8271214")
 	)
+	(label "COL9"
+		(at 101.6 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f6c42cc-6cbf-48a2-aa27-7fd8883075a3")
+	)
+	(label "COL2"
+		(at 137.16 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35ea79a6-cacb-473a-8e89-f917ab2f8a2a")
+	)
+	(label "ROW0"
+		(at 101.6 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a159e42-d528-4122-8ffc-bdfb180fec36")
+	)
+	(label "RAW"
+		(at 173.99 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44c61b17-8b54-4f47-894f-76b8b6ff25d2")
+	)
+	(label "COL5"
+		(at 137.16 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4635d97d-97ad-43f3-bf9e-2ae682ae8a32")
+	)
+	(label "ROW1"
+		(at 101.6 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c66641d-7efd-4e5e-9ca9-2e00aa3ddd6c")
+	)
+	(label "B+"
+		(at 194.31 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cc73d8b-8b83-4c0d-9ff7-aba4132a8c18")
+	)
+	(label "GND"
+		(at 177.8 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ee10d42-61b1-4c03-b602-38e1079da8f2")
+	)
 	(label "COL7"
 		(at 264.16 115.57 0)
 		(effects
@@ -12521,6 +13807,36 @@
 		)
 		(uuid "51068684-b705-495e-be38-862bb71301e6")
 	)
+	(label "COL11"
+		(at 101.6 218.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "625c9486-6af6-4fd0-abff-460fb112f9c6")
+	)
+	(label "B+"
+		(at 163.83 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "671c8364-f1c5-4998-9b95-adc5dcccf331")
+	)
+	(label "RST"
+		(at 137.16 195.58 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "67c6fee1-30c0-4c23-a192-9e915cac8577")
+	)
 	(label "ROW1"
 		(at 402.59 71.12 0)
 		(effects
@@ -12530,6 +13846,26 @@
 			(justify left bottom)
 		)
 		(uuid "726c8561-e3b0-4d26-88ed-2aed4bda1c58")
+	)
+	(label "COL10"
+		(at 101.6 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "746c1f05-783a-4cb5-8049-c0a22a2ffebc")
+	)
+	(label "RAW"
+		(at 137.16 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "762e533f-7620-46be-831b-d02675ebe2bc")
 	)
 	(label "COL11"
 		(at 375.92 116.84 0)
@@ -12560,6 +13896,16 @@
 			(justify left bottom)
 		)
 		(uuid "8f9992d2-65b7-46bd-9ea7-3f7feac3cfa2")
+	)
+	(label "COL4"
+		(at 137.16 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a366ca72-86d6-4848-b265-b41a90a83f25")
 	)
 	(label "COL5"
 		(at 195.58 116.84 0)
@@ -12601,6 +13947,26 @@
 		)
 		(uuid "c28958a9-4800-48cd-8f30-1bdbed6cb651")
 	)
+	(label "ROW4"
+		(at 101.6 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c500481e-5a55-461b-9745-16129065f9e1")
+	)
+	(label "COL8"
+		(at 101.6 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c6bb4955-f022-4ec2-8cd3-8ef53af2a339")
+	)
 	(label "COL10"
 		(at 347.98 116.84 0)
 		(effects
@@ -12621,6 +13987,36 @@
 		)
 		(uuid "cdec9320-ff8f-4be9-8e5f-5bc2467903f7")
 	)
+	(label "COL7"
+		(at 101.6 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d95d4cd5-32b8-42f2-a1bc-dbd101655faf")
+	)
+	(label "ROW2"
+		(at 137.16 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dade650b-ffd2-48a4-91fa-a6c0addfd687")
+	)
+	(label "COL6"
+		(at 101.6 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db0ae4d9-e970-4761-b83d-5b6f13dd53d4")
+	)
 	(label "COL0"
 		(at 55.88 115.57 0)
 		(effects
@@ -12630,6 +14026,16 @@
 			(justify left bottom)
 		)
 		(uuid "df38f194-8da3-4582-aec1-6821a71cb175")
+	)
+	(label "GND"
+		(at 137.16 193.04 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0098e0f-d921-4212-922e-d042c95b187f")
 	)
 	(label "COL3"
 		(at 139.7 116.84 0)
@@ -12650,6 +14056,149 @@
 			(justify left bottom)
 		)
 		(uuid "fa604302-ce98-4565-a37a-46805f52377e")
+	)
+	(symbol
+		(lib_id "symbols:ProMicro")
+		(at 119.38 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000058242ad2")
+		(property "Reference" "U0"
+			(at 121.92 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NICE!"
+			(at 119.38 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:nice!nano"
+			(at 121.92 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "18199db7-c5e8-4ca5-aaab-b04731b56b5b")
+		)
+		(pin "13"
+			(uuid "14f76c7d-dfc3-4f0a-9a9f-dc775eb31814")
+		)
+		(pin "14"
+			(uuid "12e336f3-0734-44cd-a1b3-76d5c59d4b35")
+		)
+		(pin "15"
+			(uuid "78bb1a0e-9ab1-40bd-9608-d95bb388f0f1")
+		)
+		(pin "16"
+			(uuid "71b74bdc-7136-40ea-a6fe-d2a63817e64e")
+		)
+		(pin "17"
+			(uuid "21a43430-b088-4379-840a-9ba23ba88493")
+		)
+		(pin "18"
+			(uuid "fde8dabe-99b0-44be-8dd0-591883c57c58")
+		)
+		(pin "19"
+			(uuid "19b54ede-a4c7-485c-8523-941cd4335f72")
+		)
+		(pin "2"
+			(uuid "295bdcd5-481c-4c9b-a39a-02f594712ea0")
+		)
+		(pin "20"
+			(uuid "c34317b5-9bd8-4c5c-9bfc-2ac698a968d4")
+		)
+		(pin "21"
+			(uuid "51ceeeb4-80e2-4ce7-b289-8b6348d44735")
+		)
+		(pin "22"
+			(uuid "12323e65-f94f-4f13-b1ed-6f765ce635ca")
+		)
+		(pin "23"
+			(uuid "5dec9cc8-f93a-47b5-9159-7c6fe7fcb7c6")
+		)
+		(pin "24"
+			(uuid "f6fb22c7-d379-4b8c-a364-68da4996ee56")
+		)
+		(pin "3"
+			(uuid "7b94d99f-a61b-429b-8494-453f7b85aa0f")
+		)
+		(pin "4"
+			(uuid "f698bcdc-13c2-4d15-a043-f4a95e037bf1")
+		)
+		(pin "5"
+			(uuid "008590be-dfe3-453e-aee4-d1f6dfddd765")
+		)
+		(pin "6"
+			(uuid "15f24465-359f-4fde-97b5-a4d35ce76b14")
+		)
+		(pin "7"
+			(uuid "eb7acc90-4343-43ea-9666-c52d8fbd34c8")
+		)
+		(pin "8"
+			(uuid "04efa2b4-9b98-44bb-b45f-e3d7881beb8b")
+		)
+		(pin "9"
+			(uuid "ff6cb206-f5a8-480a-b0ce-c14263b38f77")
+		)
+		(pin "1"
+			(uuid "3857e2fa-0418-441c-964e-ef45bd78e65b")
+		)
+		(pin "10"
+			(uuid "e7202249-91e6-4437-8000-66845dee4a83")
+		)
+		(pin "11"
+			(uuid "7351a1a6-d641-49d5-9474-aa7bd6c549ec")
+		)
+		(instances
+			(project "jlol"
+				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
+					(reference "U0")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_name "SWITCH_WITH_DIODE_22")
@@ -12684,7 +14233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 119.38 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12729,9 +14278,91 @@
 			(uuid "cb876cf9-3e7e-40b2-965e-359aa5c06d3b")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 168.91 195.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06188486-46e3-4ceb-aadf-7a2d7568b509")
+		(property "Reference" "PWR0"
+			(at 168.91 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER"
+			(at 168.91 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:power_switch_1"
+			(at 168.91 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08fc26c7-3522-412c-81fd-3737056fe102")
+		)
+		(pin "2"
+			(uuid "9bb918ee-4038-463b-9a43-6fbfd0d75aaf")
+		)
+		(pin "3"
+			(uuid "60bf4abb-3eac-4d86-9514-c80a57d5fc2c")
+		)
+		(instances
+			(project "jlol"
+				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
+					(reference "PWR0")
 					(unit 1)
 				)
 			)
@@ -12770,7 +14401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 91.44 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12815,7 +14446,7 @@
 			(uuid "561a3d81-37d7-41ef-ba26-49e0a7823019")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW25")
 					(unit 1)
@@ -12856,7 +14487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 271.78 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12901,7 +14532,7 @@
 			(uuid "88560ced-eafa-4055-8918-915bea8d744f")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW19")
 					(unit 1)
@@ -12942,7 +14573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 299.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12987,7 +14618,7 @@
 			(uuid "4a3c5fdf-3490-4d0b-9681-2d657ae5ef6a")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW20")
 					(unit 1)
@@ -13028,7 +14659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 175.26 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13073,7 +14704,7 @@
 			(uuid "39c4e801-aa72-44ea-bbdc-8f4caca6ed13")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW40")
 					(unit 1)
@@ -13083,7 +14714,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 123.19 254 0)
+		(at 113.03 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13093,8 +14724,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e4e2410-a90c-47d8-9d0f-37898a0bd1f3")
-		(property "Reference" "H5"
-			(at 125.73 252.73 0)
+		(property "Reference" "H2"
+			(at 115.57 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13105,7 +14736,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 125.73 255.27 0)
+			(at 115.57 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13115,8 +14746,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 123.19 254 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 113.03 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13127,7 +14758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 254 0)
+			(at 113.03 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13138,7 +14769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 254 0)
+			(at 113.03 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13148,9 +14779,9 @@
 			)
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H5")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13189,7 +14820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13234,7 +14865,7 @@
 			(uuid "04d1f5e0-9052-4104-b971-bc37159e1c72")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW26")
 					(unit 1)
@@ -13275,7 +14906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 91.44 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13320,7 +14951,7 @@
 			(uuid "051b167e-e56d-4d07-97d8-6b44f94255eb")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW37")
 					(unit 1)
@@ -13361,7 +14992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 383.54 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13406,7 +15037,7 @@
 			(uuid "e3f49cdd-468b-4830-91a0-4c099d02be2a")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW35")
 					(unit 1)
@@ -13447,7 +15078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 203.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13492,7 +15123,7 @@
 			(uuid "becc64f5-ad9c-4020-af13-888aca208b47")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW17")
 					(unit 1)
@@ -13532,7 +15163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 203.2 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13577,7 +15208,7 @@
 			(uuid "0531950b-566d-4dbb-8488-ff41f3aae0c1")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW51")
 					(unit 1)
@@ -13618,7 +15249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13663,7 +15294,7 @@
 			(uuid "9bff77a0-255e-4133-909c-66a0b17331cf")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW27")
 					(unit 1)
@@ -13704,7 +15335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 119.38 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13749,7 +15380,7 @@
 			(uuid "e586b570-c126-4c06-a946-e8fd981fa200")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW2")
 					(unit 1)
@@ -13790,7 +15421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 327.66 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13835,7 +15466,7 @@
 			(uuid "197198d6-e8ff-4d26-b83a-8e8c5d47187a")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW9")
 					(unit 1)
@@ -13876,7 +15507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 327.66 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13921,7 +15552,7 @@
 			(uuid "7a004ff0-4443-4afb-96d7-bab72c403172")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW21")
 					(unit 1)
@@ -13962,7 +15593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 147.32 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14007,7 +15638,7 @@
 			(uuid "9378d464-1478-4d1d-b9ca-47eae081395a")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW15")
 					(unit 1)
@@ -14017,7 +15648,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 130.81 250.19 0)
+		(at 128.27 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14027,8 +15658,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e9fbff4-7258-4e18-96d0-7551867d5de8")
-		(property "Reference" "H3"
-			(at 133.35 248.92 0)
+		(property "Reference" "H6"
+			(at 130.81 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14039,7 +15670,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 133.35 251.46 0)
+			(at 130.81 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14049,8 +15680,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 130.81 250.19 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 128.27 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14061,7 +15692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 250.19 0)
+			(at 128.27 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14072,7 +15703,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 250.19 0)
+			(at 128.27 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14082,9 +15713,9 @@
 			)
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H3")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -14123,7 +15754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 203.2 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14168,7 +15799,7 @@
 			(uuid "24d296b1-a654-45bb-90bd-183e5f4a524a")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW5")
 					(unit 1)
@@ -14209,7 +15840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 175.26 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14254,7 +15885,7 @@
 			(uuid "fc74afb3-c0b9-42ad-b3ca-1809f3a28ee3")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW28")
 					(unit 1)
@@ -14295,7 +15926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 355.6 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14340,7 +15971,7 @@
 			(uuid "b70f3e67-6587-4647-a3af-952c0d18f754")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW46")
 					(unit 1)
@@ -14381,7 +16012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 299.72 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14426,7 +16057,7 @@
 			(uuid "a0442fee-7726-4643-b267-3643f21f9ea0")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW8")
 					(unit 1)
@@ -14467,7 +16098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14512,7 +16143,7 @@
 			(uuid "8ac64786-e032-4a38-b82d-baed84ebc05f")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW39")
 					(unit 1)
@@ -14553,7 +16184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14598,7 +16229,7 @@
 			(uuid "264d73a3-70a8-41ca-aebf-3296dc0e1800")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW3")
 					(unit 1)
@@ -14639,7 +16270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14684,7 +16315,7 @@
 			(uuid "5caa2022-8f1c-460f-a085-55bc71fc1e74")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW1")
 					(unit 1)
@@ -14693,8 +16324,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 119.38 250.19 0)
+		(lib_id "power:GND")
+		(at 194.31 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14703,31 +16334,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "512f1ff6-acb9-4c8f-a8a1-38bb033e657a")
-		(property "Reference" "H0"
-			(at 121.92 248.92 0)
+		(uuid "4f0f5075-6bfd-472f-a5d3-5f4410e132e4")
+		(property "Reference" "#PWR00"
+			(at 194.31 204.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 121.92 251.46 0)
+		(property "Value" "GND"
+			(at 194.31 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 119.38 250.19 0)
+		(property "Footprint" ""
+			(at 194.31 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14738,7 +16368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 250.19 0)
+			(at 194.31 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14749,7 +16379,85 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 250.19 0)
+			(at 194.31 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ecebdfd-625d-4df2-8116-922816bcb763")
+		)
+		(instances
+			(project "jlol"
+				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
+					(reference "#PWR00")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 105.41 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "512f1ff6-acb9-4c8f-a8a1-38bb033e657a")
+		(property "Reference" "H0"
+			(at 107.95 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 107.95 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 105.41 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14759,7 +16467,7 @@
 			)
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "H0")
 					(unit 1)
@@ -14800,7 +16508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 327.66 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -14845,7 +16553,7 @@
 			(uuid "69908035-6b14-46b5-b7ba-824c7a2aeb9c")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW55")
 					(unit 1)
@@ -14855,7 +16563,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 119.38 257.81 0)
+		(at 132.08 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14865,8 +16573,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56dfeb3b-890a-4dca-9b64-0b95529759e0")
-		(property "Reference" "H8"
-			(at 121.92 256.54 0)
+		(property "Reference" "H7"
+			(at 134.62 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14877,7 +16585,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 121.92 259.08 0)
+			(at 134.62 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14887,8 +16595,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 119.38 257.81 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14899,7 +16607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 257.81 0)
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14910,7 +16618,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 257.81 0)
+			(at 132.08 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14920,9 +16628,9 @@
 			)
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H8")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -14961,7 +16669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 63.5 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15006,7 +16714,7 @@
 			(uuid "5f40cefb-20ec-454d-a7c0-53e790c47c50")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW24")
 					(unit 1)
@@ -15016,7 +16724,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 130.81 254 0)
+		(at 124.46 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15026,8 +16734,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e1d0333-7b2c-4c04-989f-eb9850e8d73f")
-		(property "Reference" "H7"
-			(at 133.35 252.73 0)
+		(property "Reference" "H5"
+			(at 127 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15038,7 +16746,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 133.35 255.27 0)
+			(at 127 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15048,8 +16756,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 130.81 254 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 124.46 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15060,7 +16768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 254 0)
+			(at 124.46 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15071,7 +16779,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 254 0)
+			(at 124.46 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15081,9 +16789,9 @@
 			)
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -15122,7 +16830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 243.84 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -15167,7 +16875,7 @@
 			(uuid "94d4dc70-2084-4fde-aa27-98e166d95d45")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW42")
 					(unit 1)
@@ -15208,7 +16916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15253,7 +16961,7 @@
 			(uuid "42482c78-141d-46ea-95d6-a8b1c3d4330c")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW30")
 					(unit 1)
@@ -15294,7 +17002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 63.5 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15339,7 +17047,7 @@
 			(uuid "799551e7-6cef-47d8-a8fa-a45efe399fb0")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW12")
 					(unit 1)
@@ -15380,7 +17088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 271.78 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15425,7 +17133,7 @@
 			(uuid "d33fdcbf-308b-4398-820d-60d4e30fe7fc")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW7")
 					(unit 1)
@@ -15466,7 +17174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 327.66 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -15511,7 +17219,7 @@
 			(uuid "210bf64c-74ef-4767-936d-fb1c048164fe")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW45")
 					(unit 1)
@@ -15552,7 +17260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15597,7 +17305,7 @@
 			(uuid "f5e9195c-e1de-4d27-9277-7652a1d23736")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW14")
 					(unit 1)
@@ -15638,7 +17346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 175.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15683,7 +17391,7 @@
 			(uuid "02ebec8b-21b9-4ea1-b7e6-39b9d770ac18")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW16")
 					(unit 1)
@@ -15693,7 +17401,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 127 254 0)
+		(at 135.89 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15703,8 +17411,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc04bba-4645-4385-8cc6-a9338110286f")
-		(property "Reference" "H6"
-			(at 129.54 252.73 0)
+		(property "Reference" "H8"
+			(at 138.43 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15715,7 +17423,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 129.54 255.27 0)
+			(at 138.43 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15725,8 +17433,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 127 254 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 135.89 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15737,7 +17445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 254 0)
+			(at 135.89 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15748,7 +17456,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 254 0)
+			(at 135.89 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15758,9 +17466,9 @@
 			)
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H6")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -15799,7 +17507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 175.26 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15844,7 +17552,7 @@
 			(uuid "96566326-e65a-48a3-bad8-1cc37495cf89")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW4")
 					(unit 1)
@@ -15854,7 +17562,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 127 250.19 0)
+		(at 109.22 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15864,8 +17572,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb16d28-227c-45e1-a000-e65984ebd88d")
-		(property "Reference" "H2"
-			(at 129.54 248.92 0)
+		(property "Reference" "H1"
+			(at 111.76 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15876,7 +17584,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 129.54 251.46 0)
+			(at 111.76 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15886,8 +17594,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 127 250.19 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 109.22 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15898,7 +17606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 250.19 0)
+			(at 109.22 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15909,7 +17617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 250.19 0)
+			(at 109.22 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15919,9 +17627,9 @@
 			)
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -15960,7 +17668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 299.72 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16005,7 +17713,7 @@
 			(uuid "c402e0d2-2f5d-4400-a34b-082488de4682")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW44")
 					(unit 1)
@@ -16046,7 +17754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16091,7 +17799,7 @@
 			(uuid "20639dd0-a438-42ea-ab65-4d99235e957a")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW41")
 					(unit 1)
@@ -16132,7 +17840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 271.78 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16177,7 +17885,7 @@
 			(uuid "a5e005dd-9797-4de0-b990-a4b0393aec61")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW53")
 					(unit 1)
@@ -16218,7 +17926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 383.54 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16263,7 +17971,7 @@
 			(uuid "9c5cb3c8-8ec0-4379-86af-db7a1df5f51b")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW47")
 					(unit 1)
@@ -16304,7 +18012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 243.84 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16349,7 +18057,7 @@
 			(uuid "f3b7244e-6965-4bf9-ab9e-53124de3b53d")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW52")
 					(unit 1)
@@ -16390,7 +18098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 243.84 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16435,7 +18143,7 @@
 			(uuid "e61c3814-f355-4f39-931f-50a79b0cd709")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW6")
 					(unit 1)
@@ -16445,7 +18153,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 119.38 254 0)
+		(at 116.84 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16455,8 +18163,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a821a260-f467-4083-99ed-6a693a92de7b")
-		(property "Reference" "H4"
-			(at 121.92 252.73 0)
+		(property "Reference" "H3"
+			(at 119.38 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16467,7 +18175,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 121.92 255.27 0)
+			(at 119.38 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16477,8 +18185,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 119.38 254 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 116.84 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16489,7 +18197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 254 0)
+			(at 116.84 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16500,7 +18208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 254 0)
+			(at 116.84 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16510,9 +18218,9 @@
 			)
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -16551,7 +18259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 271.78 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16596,7 +18304,7 @@
 			(uuid "b482a83d-8b0e-40d9-b076-0fbc46a6a836")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW31")
 					(unit 1)
@@ -16637,7 +18345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 355.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16682,7 +18390,7 @@
 			(uuid "57c0d52b-c44e-485d-b9ec-ffce2f5c0a4c")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW10")
 					(unit 1)
@@ -16723,7 +18431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 383.54 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16768,7 +18476,7 @@
 			(uuid "1f52c419-56e2-4b4c-b393-aaefcc26ab1a")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW23")
 					(unit 1)
@@ -16809,7 +18517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 119.38 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16854,7 +18562,7 @@
 			(uuid "11e3d211-5926-42eb-9ee3-e321d20ca843")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW38")
 					(unit 1)
@@ -16895,7 +18603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 243.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16940,7 +18648,7 @@
 			(uuid "01e22be3-2cc9-46d4-a216-246d8d5195b3")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW18")
 					(unit 1)
@@ -16981,7 +18689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 327.66 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17026,7 +18734,7 @@
 			(uuid "c401d950-63ce-4d22-b0a4-de1808d86cb8")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW33")
 					(unit 1)
@@ -17036,7 +18744,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 123.19 250.19 0)
+		(at 120.65 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17046,8 +18754,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb3bb164-d8f5-4949-b418-3ab4c3f0a667")
-		(property "Reference" "H1"
-			(at 125.73 248.92 0)
+		(property "Reference" "H4"
+			(at 123.19 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17058,7 +18766,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 125.73 251.46 0)
+			(at 123.19 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17068,8 +18776,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 123.19 250.19 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 120.65 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17080,7 +18788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 250.19 0)
+			(at 120.65 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17091,7 +18799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 250.19 0)
+			(at 120.65 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17101,9 +18809,9 @@
 			)
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -17142,7 +18850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 271.78 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -17187,7 +18895,7 @@
 			(uuid "cff6f588-61e9-4b2d-b2fd-abca96ac0539")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW43")
 					(unit 1)
@@ -17228,7 +18936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 299.72 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17273,7 +18981,7 @@
 			(uuid "65ef23c1-e4d6-488d-97a9-3d7f19aa87a1")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW32")
 					(unit 1)
@@ -17314,7 +19022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17359,9 +19067,88 @@
 			(uuid "97f23d8d-4821-4ba9-992c-22d335635383")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 172.72 224.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cab22cd0-c0a0-40a5-86ac-74e9aa7f5a98")
+		(property "Reference" "RST0"
+			(at 172.72 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET"
+			(at 172.72 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:reset_button"
+			(at 172.72 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2e1f101-2305-4458-b639-4ca3d88ec846")
+		)
+		(pin "2"
+			(uuid "0748fb72-2576-4286-94d2-8b1c45fda9de")
+		)
+		(instances
+			(project "jlol"
+				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
+					(reference "RST0")
 					(unit 1)
 				)
 			)
@@ -17400,7 +19187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 355.6 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17445,7 +19232,7 @@
 			(uuid "31a96448-0e1e-4690-af5e-a0745c3862a5")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW22")
 					(unit 1)
@@ -17486,7 +19273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 355.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17531,7 +19318,7 @@
 			(uuid "904359f9-2960-4218-b8b9-765426aef375")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW34")
 					(unit 1)
@@ -17572,7 +19359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 383.54 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -17617,7 +19404,7 @@
 			(uuid "3a71128c-8d82-4730-92ca-e1bda98c6655")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW11")
 					(unit 1)
@@ -17658,7 +19445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -17703,7 +19490,7 @@
 			(uuid "bce01d9f-bc73-49f7-a92f-8081bc556f1c")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW49")
 					(unit 1)
@@ -17744,7 +19531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 203.2 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17789,7 +19576,7 @@
 			(uuid "6c34cb96-3a99-4455-ab1a-39df6b362962")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW29")
 					(unit 1)
@@ -17830,7 +19617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 299.72 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -17875,7 +19662,7 @@
 			(uuid "c8652da3-6781-4413-8031-8d5145819220")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW54")
 					(unit 1)
@@ -17916,7 +19703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 175.26 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -17961,7 +19748,7 @@
 			(uuid "d4540452-9048-49bb-b220-f5b2cf2f30c5")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW50")
 					(unit 1)
@@ -18002,7 +19789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18047,7 +19834,7 @@
 			(uuid "7b932957-f5ca-4541-960c-c9a338ec8259")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW0")
 					(unit 1)
@@ -18088,7 +19875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cherry_plate"
+		(property "Footprint" "footprints:cherry_hotswap_with_thru_diode"
 			(at 63.5 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18133,9 +19920,90 @@
 			(uuid "8c7bcee4-6e67-481f-81ab-874b208b9a6e")
 		)
 		(instances
-			(project "olk_top"
+			(project "jlol"
 				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
 					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 199.39 198.12 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc144055-c550-4c6c-923c-57da896bd013")
+		(property "Reference" "J0"
+			(at 200.66 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 200.66 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:jst_ph"
+			(at 199.39 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbac6418-c239-4c61-9df4-5deb7788c17d")
+		)
+		(pin "2"
+			(uuid "c8e30b1d-1349-4fb5-a6d0-a84d25c5c50d")
+		)
+		(instances
+			(project "jlol"
+				(path "/97127b28-60f4-45ff-835e-dccfbc833331"
+					(reference "J0")
 					(unit 1)
 				)
 			)
